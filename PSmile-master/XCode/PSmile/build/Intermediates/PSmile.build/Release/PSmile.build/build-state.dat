@@ -1,0 +1,137 @@
+TPSmile
+v5
+r1
+cCheck dependencies
+cProcessPCH++ /Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PrecompiledHeaders/PSmile_Prefix-dwwbbzyczlwqukapagzhbykxoqou/PSmile_Prefix.pch.pth PSmile_Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/PSmile.o /Users/chungbryan/Documents/My_Applications/PSmile/PSmile.cp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC Build/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/pSmile_PSmile.o /Users/chungbryan/Documents/My_Applications/PSmile/pSmile_PSmile.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/libPSmile.jnilib normal x86_64
+cGenerateDSYMFile /Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/libPSmile.jnilib.dSYM /Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/libPSmile.jnilib
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c00000000503F1B7700000000000000AA
+t1346313079
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/JavaVM
+c00000000505C807D0000000000008948
+t1348239485
+s35144
+
+N/Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/PSmile.o
+t2
+s0
+
+N/Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.LinkFileList
+c00000000505DDE1F0000000000000117
+t1348328991
+s279
+
+N/Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/pSmile_PSmile.o
+t2
+s0
+
+N/Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PrecompiledHeaders/PSmile_Prefix-dwwbbzyczlwqukapagzhbykxoqou/PSmile_Prefix.pch.pth
+t2
+s0
+
+N/Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/libPSmile.jnilib
+t2
+s0
+
+N/Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/libPSmile.jnilib.dSYM
+t2
+s0
+
+N/Users/chungbryan/Documents/My_Applications/PSmile/PSmile.cp
+c00000000505C7A9B0000000000000278
+t1348237979
+s632
+
+N/Users/chungbryan/Documents/My_Applications/PSmile/PSmile_Prefix.pch
+c00000000505C7A9B0000000000000072
+t1348237979
+s114
+i<iostream>
+
+N/Users/chungbryan/Documents/My_Applications/PSmile/libmpi.a
+c00000000505DD4D4000000000173DF98
+t1348326612
+s24371096
+
+N/Users/chungbryan/Documents/My_Applications/PSmile/pSmile_PSmile.cpp
+c00000000505C7A9C000000000000034F
+t1348237980
+s847
+
+CBuild AST from /Users/chungbryan/Documents/My_Applications/PSmile/PSmile.cp
+r0
+
+CBuild AST from /Users/chungbryan/Documents/My_Applications/PSmile/pSmile_PSmile.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesff97139f150eb641^342c1a9f150eb641^---0#1#0#--18"Check dependencies36"360615A3-5ED1-4756-9C1E-07229D73FEB0-
+
+CCompileC Build/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/PSmile.o /Users/chungbryan/Documents/My_Applications/PSmile/PSmile.cp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s370021791.402267
+e370021791.660385
+r1
+xCompileC
+xBuild/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/PSmile.o
+x/Users/chungbryan/Documents/My_Applications/PSmile/PSmile.cp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection68"Compile /Users/chungbryan/Documents/My_Applications/PSmile/PSmile.cp0613679f150eb641^f90fa99f150eb641^---0#0#0#-19%DVTDocumentLocation2@76"file://localhost/Users/chungbryan/Documents/My_Applications/PSmile/PSmile.cp0000000000000000^2523"CompileC Build/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/PSmile.o PSmile.cp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chungbryan/Documents/My_Applications/PSmile    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/libPSmile.hmap -I/Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/include -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/DerivedSources/x86_64 -I/Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/DerivedSources -F/Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release -include /Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PrecompiledHeaders/PSmile_Prefix-dwwbbzyczlwqukapagzhbykxoqou/PSmile_Prefix.pch -MMD -MT dependencies -MF /Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/PSmile.d --serialize-diagnostics /Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/PSmile.dia -c /Users/chungbryan/Documents/My_Applications/PSmile/PSmile.cp -o /Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/PSmile.o36"2D84870E-7A36-4797-A0C7-03D244D42CB5-
+
+CCompileC Build/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/pSmile_PSmile.o /Users/chungbryan/Documents/My_Applications/PSmile/pSmile_PSmile.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s370021791.402799
+e370021791.612899
+r1
+xCompileC
+xBuild/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/pSmile_PSmile.o
+x/Users/chungbryan/Documents/My_Applications/PSmile/pSmile_PSmile.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection76"Compile /Users/chungbryan/Documents/My_Applications/PSmile/pSmile_PSmile.cpp662f679f150eb641^68e79c9f150eb641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/chungbryan/Documents/My_Applications/PSmile/pSmile_PSmile.cpp0000000000000000^2567"CompileC Build/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/pSmile_PSmile.o pSmile_PSmile.cpp normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chungbryan/Documents/My_Applications/PSmile    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/libPSmile.hmap -I/Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/include -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/DerivedSources/x86_64 -I/Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/DerivedSources -F/Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release -include /Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PrecompiledHeaders/PSmile_Prefix-dwwbbzyczlwqukapagzhbykxoqou/PSmile_Prefix.pch -MMD -MT dependencies -MF /Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/pSmile_PSmile.d --serialize-diagnostics /Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/pSmile_PSmile.dia -c /Users/chungbryan/Documents/My_Applications/PSmile/pSmile_PSmile.cpp -o /Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/pSmile_PSmile.o36"57A10BE2-56BD-46E1-886F-AE41C2EA821B-
+
+CGenerateDSYMFile /Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/libPSmile.jnilib.dSYM /Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/libPSmile.jnilib
+s370021791.752431
+e370021792.079319
+r1
+xGenerateDSYMFile
+x/Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/libPSmile.jnilib.dSYM
+x/Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/libPSmile.jnilib
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Generating /Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/libPSmile.jnilib.dSYM3eafc09f150eb641^c80616a0150eb641^---0#0#0#-19%DVTDocumentLocation2@111"file://localhost/Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/libPSmile.jnilib.dSYM000000000080d041^450"GenerateDSYMFile Build/Products/Release/libPSmile.jnilib.dSYM Build/Products/Release/libPSmile.jnilib    cd /Users/chungbryan/Documents/My_Applications/PSmile    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/libPSmile.jnilib -o /Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/libPSmile.jnilib.dSYM36"736FE9BE-C0CC-4966-99ED-26EE7D0F93E3-
+
+CLd /Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/libPSmile.jnilib normal x86_64
+s370021791.667207
+e370021791.745591
+r1
+xLd
+x/Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/libPSmile.jnilib
+xnormal
+xx86_64
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection95"Link /Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/libPSmile.jnilib48e1aa9f150eb641^c6dfbe9f150eb641^---0#0#0#--1003"Ld Build/Products/Release/libPSmile.jnilib normal x86_64    cd /Users/chungbryan/Documents/My_Applications/PSmile    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch x86_64 -dynamiclib -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release -L/Users/chungbryan/Documents/My_Applications/PSmile -F/Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release -filelist /Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.LinkFileList -install_name /usr/local/lib/libPSmile.jnilib -mmacosx-version-min=10.8 -framework JavaVM -lmpi -single_module -compatibility_version 1 -current_version 1 -o /Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/libPSmile.jnilib36"CD4E13F1-6C2D-4745-9B9F-FBE0CB0D01A5-
+
+CProcessPCH++ /Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PrecompiledHeaders/PSmile_Prefix-dwwbbzyczlwqukapagzhbykxoqou/PSmile_Prefix.pch.pth PSmile_Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s370021791.105195
+e370021791.395602
+r1
+xProcessPCH++
+x/Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PrecompiledHeaders/PSmile_Prefix-dwwbbzyczlwqukapagzhbykxoqou/PSmile_Prefix.pch.pth
+xPSmile_Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection28"Precompile PSmile_Prefix.pchfd101b9f150eb641^c845659f150eb641^---0#0#0#-19%DVTDocumentLocation2@84"file://localhost/Users/chungbryan/Documents/My_Applications/PSmile/PSmile_Prefix.pch0000000000000000^2462"ProcessPCH++ Build/Intermediates/PrecompiledHeaders/PSmile_Prefix-dwwbbzyczlwqukapagzhbykxoqou/PSmile_Prefix.pch.pth PSmile_Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/chungbryan/Documents/My_Applications/PSmile    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch x86_64 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.8 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/libPSmile.hmap -I/Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release/include -I/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/DerivedSources/x86_64 -I/Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PSmile.build/Release/PSmile.build/DerivedSources -F/Users/chungbryan/Documents/My_Applications/PSmile/Build/Products/Release --serialize-diagnostics /Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PrecompiledHeaders/PSmile_Prefix-dwwbbzyczlwqukapagzhbykxoqou/PSmile_Prefix.pch.dia -c /Users/chungbryan/Documents/My_Applications/PSmile/PSmile_Prefix.pch -o /Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PrecompiledHeaders/PSmile_Prefix-dwwbbzyczlwqukapagzhbykxoqou/PSmile_Prefix.pch.pth -MMD -MT dependencies -MF /Users/chungbryan/Documents/My_Applications/PSmile/Build/Intermediates/PrecompiledHeaders/PSmile_Prefix-dwwbbzyczlwqukapagzhbykxoqou/PSmile_Prefix.pch.d36"CDD55222-5658-492C-8758-514722DA14B9-
+
+CProcessPCH++ /Users/chungbryan/Library/Developer/Xcode/DerivedData/PSmile-eczgjwkyzzeoewdsdpqxudrripwr/Index/PrecompiledHeaders/PSmile_Prefix-crlifibzyyuqzrfkyslibqtffvtx_ast/PSmile_Prefix.pch.pth PSmile_Prefix.pch normal x86_64 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+

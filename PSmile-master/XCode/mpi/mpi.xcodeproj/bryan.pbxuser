@@ -1,0 +1,229 @@
+// !$*UTF8*$!
+{
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeTarget = D2AAC045055464E500DB518D /* mpi */;
+		addToTargets = (
+			D2AAC045055464E500DB518D /* mpi */,
+		);
+		codeSenseManager = 9322A466136C1C7900404B9C /* Code sense */;
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					620,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					580,
+					60,
+					20,
+					48.16259765625,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 325853691;
+			PBXWorkspaceStateSaveDate = 325853691;
+		};
+		perUserProjectItems = {
+			9322A4C1136C1DBF00404B9C /* PBXTextBookmark */ = 9322A4C1136C1DBF00404B9C /* PBXTextBookmark */;
+			9322A4C2136C1DBF00404B9C /* PBXTextBookmark */ = 9322A4C2136C1DBF00404B9C /* PBXTextBookmark */;
+			9322A4C3136C1DBF00404B9C /* PBXTextBookmark */ = 9322A4C3136C1DBF00404B9C /* PBXTextBookmark */;
+			9322A4E4136C1F1700404B9C /* PBXTextBookmark */ = 9322A4E4136C1F1700404B9C /* PBXTextBookmark */;
+			9322A4E5136C1F1700404B9C /* PBXTextBookmark */ = 9322A4E5136C1F1700404B9C /* PBXTextBookmark */;
+			9322A4E6136C1F1700404B9C /* PBXTextBookmark */ = 9322A4E6136C1F1700404B9C /* PBXTextBookmark */;
+			9322A4EC136C1F5500404B9C /* PBXTextBookmark */ = 9322A4EC136C1F5500404B9C /* PBXTextBookmark */;
+			93D60BBD136C23490099B23D /* PBXTextBookmark */ = 93D60BBD136C23490099B23D /* PBXTextBookmark */;
+		};
+		sourceControlManager = 9322A465136C1C7900404B9C /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	9322A465136C1C7900404B9C /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	9322A466136C1C7900404B9C /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	9322A468136C1D0400404B9C /* beyesobject.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {649, 1391}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 382}";
+		};
+	};
+	9322A469136C1D0400404B9C /* blink_wts.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1027, 845}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 406}";
+		};
+	};
+	9322A46A136C1D0400404B9C /* blink.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {4954, 2171}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{663, 1159}";
+		};
+	};
+	9322A46C136C1D0400404B9C /* cluster.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {798, 299}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 24}";
+		};
+	};
+	9322A4BE136C1DBE00404B9C /* blink.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = blink.h;
+		path = /Developer/mpi/include/blink.h;
+		sourceTree = "<absolute>";
+	};
+	9322A4C1136C1DBF00404B9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9322A468136C1D0400404B9C /* beyesobject.cpp */;
+		name = "beyesobject.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 382;
+		vrLoc = 0;
+	};
+	9322A4C2136C1DBF00404B9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9322A469136C1D0400404B9C /* blink_wts.cpp */;
+		name = "blink_wts.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 406;
+		vrLoc = 0;
+	};
+	9322A4C3136C1DBF00404B9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9322A46A136C1D0400404B9C /* blink.cpp */;
+		name = "blink.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1159;
+		vrLoc = 663;
+	};
+	9322A4D4136C1E2100404B9C /* common.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = common.h;
+		path = /Developer/mpi/include/common.h;
+		sourceTree = "<absolute>";
+	};
+	9322A4E4136C1F1700404B9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9322A4BE136C1DBE00404B9C /* blink.h */;
+		name = "blink.h: 26";
+		rLen = 0;
+		rLoc = 1647;
+		rType = 0;
+		vrLen = 262;
+		vrLoc = 1536;
+	};
+	9322A4E5136C1F1700404B9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9322A4D4136C1E2100404B9C /* common.h */;
+		name = "common.h: 130";
+		rLen = 0;
+		rLoc = 2805;
+		rType = 0;
+		vrLen = 614;
+		vrLoc = 3734;
+	};
+	9322A4E6136C1F1700404B9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9322A46C136C1D0400404B9C /* cluster.cpp */;
+		name = "cluster.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 24;
+		vrLoc = 0;
+	};
+	9322A4EC136C1F5500404B9C /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9322A4ED136C1F5500404B9C /* backward_warning.h */;
+		name = "backward_warning.h: 32";
+		rLen = 0;
+		rLoc = 1479;
+		rType = 0;
+		vrLen = 1040;
+		vrLoc = 817;
+	};
+	9322A4ED136C1F5500404B9C /* backward_warning.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = backward_warning.h;
+		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {798, 520}}";
+			sepNavSelRange = "{1479, 0}";
+			sepNavVisRange = "{817, 1040}";
+		};
+	};
+	93D60BBD136C23490099B23D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 93D60BBE136C23490099B23D /* backward_warning.h */;
+		name = "backward_warning.h: 32";
+		rLen = 0;
+		rLoc = 1479;
+		rType = 0;
+		vrLen = 1040;
+		vrLoc = 817;
+	};
+	93D60BBE136C23490099B23D /* backward_warning.h */ = {
+		isa = PBXFileReference;
+		name = backward_warning.h;
+		path = "/Developer/SDKs/MacOSX10.6.sdk/usr/include/c++/4.2.1/backward/backward_warning.h";
+		sourceTree = "<absolute>";
+	};
+	D2AAC045055464E500DB518D /* mpi */ = {
+		activeExec = 0;
+	};
+}

@@ -1,0 +1,100 @@
+﻿Build started 9/22/2012 8:56:57 AM.
+     1>Project "C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\mpsmiledetector\mpsmiledetector.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\mpsmiledetector.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpsmiledetector\include" /I"C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include" /I"C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpeyefinder\include" /I"C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mputil\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vcWindows7.1SDK.pdb" /Gd /TP /errorReport:prompt src\smile.cpp src\smile_wts.cpp
+         smile.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearch.h(661) : while compiling class template member function 'void MPISearchStream<T>::init(const int,const int,std::vector<_Ty> &,FeatureData &,double)'
+                 with
+                 [
+                     T=float,
+                     _Ty=image_t
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearch.h(160) : see reference to class template instantiation 'MPISearchStream<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearch.h(367): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearch.h(337) : while compiling class template member function 'double MPISearchObjectDetector<T>::classifyWindow(MPIScaledImage<T>::const_iterator &,FeatureData &,CornerCache<T> **&,T *&,Corner [],CornerCache<T> [],T,float,T,double *&)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearch.h(451): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearch.h(466): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearch.h(468): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearch.h(473): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearch.h(475): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpsmiledetector\include\interpolate.h(800): warning C4305: 'initializing' : truncation from 'double' to 'float'
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpsmiledetector\include\interpolate.h(796) : while compiling class template member function 'int CIntegralInterpolate<T>::iGetFaceFromEye(const RImage<T> &,T,T,T,T,T)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpsmiledetector\include\interpolate.h(429) : while compiling class template member function 'CIntegralInterpolate<T>::CIntegralInterpolate(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 src\smile.cpp(56) : see reference to class template instantiation 'CIntegralInterpolate<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearch.h(221) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearch.h(214) : while compiling class template member function 'int MPISearchObjectDetector<T>::search(const RImage<T> &,FaceBoxList &,int,float,double *,double *,int)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         smile_wts.cpp
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\x64\Release\mpsmiledetector.lib" /NOLOGO /LTCG x64\Release\smile.obj
+         x64\Release\smile_wts.obj
+         mpsmiledetector.vcxproj -> C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\x64\Release\mpsmiledetector.lib
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\mpsmiledetector.unsuccessfulbuild".
+         Touching "x64\Release\mpsmiledetector.lastbuildstate".
+     1>Done Building Project "C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\mpsmiledetector\mpsmiledetector.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.26

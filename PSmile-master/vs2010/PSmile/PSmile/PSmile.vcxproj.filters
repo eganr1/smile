@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\EyeWeightsFiles">
+      <UniqueIdentifier>{99b97b25-7aa0-40f9-8f63-1bbe450776b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="pSmile_PSmile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PSmile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="blink.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="blink_wts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ci.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="faceboxlist.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="featuredata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gentleFace1.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpiimage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpisearch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpisearchBinary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mpisearchFaceDetector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rimage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="roi.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="square.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="beyesobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eye_finder_ROI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eyefinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="eyeobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="faceobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="visualobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="area.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="interpolate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="smile_wts.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeWeightsFiles\config.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeWeightsFiles\lefteye_eye_dist_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeWeightsFiles\lefteye_eye_dist_face_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeWeightsFiles\lefteye_eye_only_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeWeightsFiles\lefteye_half_dist_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeWeightsFiles\lefteye_largest_2_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeWeightsFiles\lefteye_largest_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeWeightsFiles\lefteye_largest_face_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeWeightsFiles\lefteye_smallest_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeWeightsFiles\righteye_eye_dist_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeWeightsFiles\righteye_eye_dist_face_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeWeightsFiles\righteye_eye_only_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeWeightsFiles\righteye_half_dist_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeWeightsFiles\righteye_largest_2_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeWeightsFiles\righteye_largest_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeWeightsFiles\righteye_largest_face_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="EyeWeightsFiles\righteye_smallest_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="eyefinderBinary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pSmile_PSmile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PSmile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

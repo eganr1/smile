@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		50149BDA09E781A5002DEE6A /* PSmile.h in Headers */ = {isa = PBXBuildFile; fileRef = 50149BD909E781A5002DEE6A /* PSmile.h */; };
+		5073E0CB09E734E500EC74B6 /* PSmile.cp in Sources */ = {isa = PBXBuildFile; fileRef = 5073E0C409E734A800EC74B6 /* PSmile.cp */; };
+		73B3AF3E160E11E400321089 /* libmpi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73B3AF3D160E11E400321089 /* libmpi.a */; };
+		73B3AF47160E131B00321089 /* area.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF40160E131B00321089 /* area.h */; };
+		73B3AF48160E131B00321089 /* beyesobject.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF41160E131B00321089 /* beyesobject.h */; };
+		73B3AF49160E131B00321089 /* blink_wts.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF42160E131B00321089 /* blink_wts.h */; };
+		73B3AF4A160E131B00321089 /* blink.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF43160E131B00321089 /* blink.h */; };
+		73B3AF4B160E131B00321089 /* ci.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF44160E131B00321089 /* ci.h */; };
+		73B3AF4C160E131B00321089 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF45160E131B00321089 /* common.h */; };
+		73B3AF4D160E131B00321089 /* define.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF46160E131B00321089 /* define.h */; };
+		73B3AF6D160E133E00321089 /* eye_finder_ROI.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF4E160E133E00321089 /* eye_finder_ROI.h */; };
+		73B3AF6E160E133E00321089 /* eyefinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF4F160E133E00321089 /* eyefinder.h */; };
+		73B3AF6F160E133E00321089 /* eyefinderBinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF50160E133E00321089 /* eyefinderBinary.h */; };
+		73B3AF70160E133E00321089 /* eyeobject.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF51160E133E00321089 /* eyeobject.h */; };
+		73B3AF71160E133E00321089 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF53160E133E00321089 /* config.h */; };
+		73B3AF72160E133E00321089 /* lefteye_eye_dist_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF54160E133E00321089 /* lefteye_eye_dist_eye_centered.h */; };
+		73B3AF73160E133E00321089 /* lefteye_eye_dist_face_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF55160E133E00321089 /* lefteye_eye_dist_face_centered.h */; };
+		73B3AF74160E133E00321089 /* lefteye_eye_only_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF56160E133E00321089 /* lefteye_eye_only_eye_centered.h */; };
+		73B3AF75160E133E00321089 /* lefteye_half_dist_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF57160E133E00321089 /* lefteye_half_dist_eye_centered.h */; };
+		73B3AF76160E133E00321089 /* lefteye_largest_2_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF58160E133E00321089 /* lefteye_largest_2_eye_centered.h */; };
+		73B3AF77160E133E00321089 /* lefteye_largest_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF59160E133E00321089 /* lefteye_largest_eye_centered.h */; };
+		73B3AF78160E133E00321089 /* lefteye_largest_face_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF5A160E133E00321089 /* lefteye_largest_face_centered.h */; };
+		73B3AF79160E133E00321089 /* lefteye_smallest_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF5B160E133E00321089 /* lefteye_smallest_eye_centered.h */; };
+		73B3AF7A160E133E00321089 /* righteye_eye_dist_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF5C160E133E00321089 /* righteye_eye_dist_eye_centered.h */; };
+		73B3AF7B160E133E00321089 /* righteye_eye_dist_face_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF5D160E133E00321089 /* righteye_eye_dist_face_centered.h */; };
+		73B3AF7C160E133E00321089 /* righteye_eye_only_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF5E160E133E00321089 /* righteye_eye_only_eye_centered.h */; };
+		73B3AF7D160E133E00321089 /* righteye_half_dist_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF5F160E133E00321089 /* righteye_half_dist_eye_centered.h */; };
+		73B3AF7E160E133E00321089 /* righteye_largest_2_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF60160E133E00321089 /* righteye_largest_2_eye_centered.h */; };
+		73B3AF7F160E133E00321089 /* righteye_largest_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF61160E133E00321089 /* righteye_largest_eye_centered.h */; };
+		73B3AF80160E133E00321089 /* righteye_largest_face_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF62160E133E00321089 /* righteye_largest_face_centered.h */; };
+		73B3AF81160E133E00321089 /* righteye_smallest_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF63160E133E00321089 /* righteye_smallest_eye_centered.h */; };
+		73B3AF82160E133E00321089 /* faceboxlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF64160E133E00321089 /* faceboxlist.h */; };
+		73B3AF83160E133E00321089 /* faceobject.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF65160E133E00321089 /* faceobject.h */; };
+		73B3AF84160E133E00321089 /* featuredata.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF66160E133E00321089 /* featuredata.h */; };
+		73B3AF85160E133E00321089 /* gentleFace1.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF67160E133E00321089 /* gentleFace1.h */; };
+		73B3AF86160E133E00321089 /* interpolate.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF68160E133E00321089 /* interpolate.h */; };
+		73B3AF87160E133E00321089 /* mpiimage.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF69160E133E00321089 /* mpiimage.h */; };
+		73B3AF88160E133E00321089 /* mpisearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF6A160E133E00321089 /* mpisearch.h */; };
+		73B3AF89160E133E00321089 /* mpisearchBinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF6B160E133E00321089 /* mpisearchBinary.h */; };
+		73B3AF8A160E133E00321089 /* mpisearchFaceDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF6C160E133E00321089 /* mpisearchFaceDetector.h */; };
+		73B3AF90160E136900321089 /* rimage.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF8B160E136900321089 /* rimage.h */; };
+		73B3AF91160E136900321089 /* roi.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF8C160E136900321089 /* roi.h */; };
+		73B3AF92160E136900321089 /* smile_wts.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF8D160E136900321089 /* smile_wts.h */; };
+		73B3AF93160E136900321089 /* smile.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF8E160E136900321089 /* smile.h */; };
+		73B3AF94160E136900321089 /* square.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF8F160E136900321089 /* square.h */; };
+		73B3AF96160E137F00321089 /* visualobject.h in Headers */ = {isa = PBXBuildFile; fileRef = 73B3AF95160E137F00321089 /* visualobject.h */; };
+		93B18042136C117A0089CD2D /* JavaVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93B18041136C117A0089CD2D /* JavaVM.framework */; };
+		93B18063136C12B90089CD2D /* pSmile_PSmile.h in Headers */ = {isa = PBXBuildFile; fileRef = 93B18062136C12B90089CD2D /* pSmile_PSmile.h */; };
+		93B18065136C12D90089CD2D /* pSmile_PSmile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93B18064136C12D90089CD2D /* pSmile_PSmile.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32BAE0B70371A74B00C91783 /* PSmile_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSmile_Prefix.pch; sourceTree = "<group>"; };
+		50149BD909E781A5002DEE6A /* PSmile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSmile.h; sourceTree = "<group>"; };
+		5073E0C409E734A800EC74B6 /* PSmile.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; path = PSmile.cp; sourceTree = "<group>"; };
+		5073E0C609E734A800EC74B6 /* PSmileProj.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = PSmileProj.xcconfig; sourceTree = "<group>"; };
+		5073E0C709E734A800EC74B6 /* PSmileTarget.xcconfig */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xcconfig; path = PSmileTarget.xcconfig; sourceTree = "<group>"; };
+		73B3AF3D160E11E400321089 /* libmpi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmpi.a; sourceTree = "<group>"; };
+		73B3AF40160E131B00321089 /* area.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = area.h; sourceTree = "<group>"; };
+		73B3AF41160E131B00321089 /* beyesobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = beyesobject.h; sourceTree = "<group>"; };
+		73B3AF42160E131B00321089 /* blink_wts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blink_wts.h; sourceTree = "<group>"; };
+		73B3AF43160E131B00321089 /* blink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blink.h; sourceTree = "<group>"; };
+		73B3AF44160E131B00321089 /* ci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ci.h; sourceTree = "<group>"; };
+		73B3AF45160E131B00321089 /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = common.h; sourceTree = "<group>"; };
+		73B3AF46160E131B00321089 /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = define.h; sourceTree = "<group>"; };
+		73B3AF4E160E133E00321089 /* eye_finder_ROI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eye_finder_ROI.h; sourceTree = "<group>"; };
+		73B3AF4F160E133E00321089 /* eyefinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eyefinder.h; sourceTree = "<group>"; };
+		73B3AF50160E133E00321089 /* eyefinderBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eyefinderBinary.h; sourceTree = "<group>"; };
+		73B3AF51160E133E00321089 /* eyeobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = eyeobject.h; sourceTree = "<group>"; };
+		73B3AF53160E133E00321089 /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		73B3AF54160E133E00321089 /* lefteye_eye_dist_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lefteye_eye_dist_eye_centered.h; sourceTree = "<group>"; };
+		73B3AF55160E133E00321089 /* lefteye_eye_dist_face_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lefteye_eye_dist_face_centered.h; sourceTree = "<group>"; };
+		73B3AF56160E133E00321089 /* lefteye_eye_only_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lefteye_eye_only_eye_centered.h; sourceTree = "<group>"; };
+		73B3AF57160E133E00321089 /* lefteye_half_dist_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lefteye_half_dist_eye_centered.h; sourceTree = "<group>"; };
+		73B3AF58160E133E00321089 /* lefteye_largest_2_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lefteye_largest_2_eye_centered.h; sourceTree = "<group>"; };
+		73B3AF59160E133E00321089 /* lefteye_largest_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lefteye_largest_eye_centered.h; sourceTree = "<group>"; };
+		73B3AF5A160E133E00321089 /* lefteye_largest_face_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lefteye_largest_face_centered.h; sourceTree = "<group>"; };
+		73B3AF5B160E133E00321089 /* lefteye_smallest_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lefteye_smallest_eye_centered.h; sourceTree = "<group>"; };
+		73B3AF5C160E133E00321089 /* righteye_eye_dist_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = righteye_eye_dist_eye_centered.h; sourceTree = "<group>"; };
+		73B3AF5D160E133E00321089 /* righteye_eye_dist_face_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = righteye_eye_dist_face_centered.h; sourceTree = "<group>"; };
+		73B3AF5E160E133E00321089 /* righteye_eye_only_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = righteye_eye_only_eye_centered.h; sourceTree = "<group>"; };
+		73B3AF5F160E133E00321089 /* righteye_half_dist_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = righteye_half_dist_eye_centered.h; sourceTree = "<group>"; };
+		73B3AF60160E133E00321089 /* righteye_largest_2_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = righteye_largest_2_eye_centered.h; sourceTree = "<group>"; };
+		73B3AF61160E133E00321089 /* righteye_largest_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = righteye_largest_eye_centered.h; sourceTree = "<group>"; };
+		73B3AF62160E133E00321089 /* righteye_largest_face_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = righteye_largest_face_centered.h; sourceTree = "<group>"; };
+		73B3AF63160E133E00321089 /* righteye_smallest_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = righteye_smallest_eye_centered.h; sourceTree = "<group>"; };
+		73B3AF64160E133E00321089 /* faceboxlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = faceboxlist.h; sourceTree = "<group>"; };
+		73B3AF65160E133E00321089 /* faceobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = faceobject.h; sourceTree = "<group>"; };
+		73B3AF66160E133E00321089 /* featuredata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = featuredata.h; sourceTree = "<group>"; };
+		73B3AF67160E133E00321089 /* gentleFace1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gentleFace1.h; sourceTree = "<group>"; };
+		73B3AF68160E133E00321089 /* interpolate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interpolate.h; sourceTree = "<group>"; };
+		73B3AF69160E133E00321089 /* mpiimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpiimage.h; sourceTree = "<group>"; };
+		73B3AF6A160E133E00321089 /* mpisearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpisearch.h; sourceTree = "<group>"; };
+		73B3AF6B160E133E00321089 /* mpisearchBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpisearchBinary.h; sourceTree = "<group>"; };
+		73B3AF6C160E133E00321089 /* mpisearchFaceDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mpisearchFaceDetector.h; sourceTree = "<group>"; };
+		73B3AF8B160E136900321089 /* rimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rimage.h; sourceTree = "<group>"; };
+		73B3AF8C160E136900321089 /* roi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = roi.h; sourceTree = "<group>"; };
+		73B3AF8D160E136900321089 /* smile_wts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smile_wts.h; sourceTree = "<group>"; };
+		73B3AF8E160E136900321089 /* smile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smile.h; sourceTree = "<group>"; };
+		73B3AF8F160E136900321089 /* square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = square.h; sourceTree = "<group>"; };
+		73B3AF95160E137F00321089 /* visualobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = visualobject.h; sourceTree = "<group>"; };
+		93B18041136C117A0089CD2D /* JavaVM.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaVM.framework; path = System/Library/Frameworks/JavaVM.framework; sourceTree = SDKROOT; };
+		93B18062136C12B90089CD2D /* pSmile_PSmile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pSmile_PSmile.h; sourceTree = "<group>"; };
+		93B18064136C12D90089CD2D /* pSmile_PSmile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pSmile_PSmile.cpp; sourceTree = "<group>"; };
+		D2AAC09D05546B4700DB518D /* libPSmile.jnilib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libPSmile.jnilib; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC09B05546B4700DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93B18042136C117A0089CD2D /* JavaVM.framework in Frameworks */,
+				73B3AF3E160E11E400321089 /* libmpi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DDFF38A45A11DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC09D05546B4700DB518D /* libPSmile.jnilib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* PSmile */ = {
+			isa = PBXGroup;
+			children = (
+				73B3AF3F160E12E700321089 /* Headers */,
+				5073E0CA09E734BC00EC74B6 /* Configuration Files */,
+				08FB77ACFE841707C02AAC07 /* Source */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DDFF38A45A11DB9C8B /* Products */,
+			);
+			name = PSmile;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				73B3AF3D160E11E400321089 /* libmpi.a */,
+				93B18041136C117A0089CD2D /* JavaVM.framework */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		08FB77ACFE841707C02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				93B18064136C12D90089CD2D /* pSmile_PSmile.cpp */,
+				93B18062136C12B90089CD2D /* pSmile_PSmile.h */,
+				32BAE0B70371A74B00C91783 /* PSmile_Prefix.pch */,
+				50149BD909E781A5002DEE6A /* PSmile.h */,
+				5073E0C409E734A800EC74B6 /* PSmile.cp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		5073E0CA09E734BC00EC74B6 /* Configuration Files */ = {
+			isa = PBXGroup;
+			children = (
+				5073E0C609E734A800EC74B6 /* PSmileProj.xcconfig */,
+				5073E0C709E734A800EC74B6 /* PSmileTarget.xcconfig */,
+			);
+			name = "Configuration Files";
+			sourceTree = "<group>";
+		};
+		73B3AF3F160E12E700321089 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				73B3AF95160E137F00321089 /* visualobject.h */,
+				73B3AF8B160E136900321089 /* rimage.h */,
+				73B3AF8C160E136900321089 /* roi.h */,
+				73B3AF8D160E136900321089 /* smile_wts.h */,
+				73B3AF8E160E136900321089 /* smile.h */,
+				73B3AF8F160E136900321089 /* square.h */,
+				73B3AF4E160E133E00321089 /* eye_finder_ROI.h */,
+				73B3AF4F160E133E00321089 /* eyefinder.h */,
+				73B3AF50160E133E00321089 /* eyefinderBinary.h */,
+				73B3AF51160E133E00321089 /* eyeobject.h */,
+				73B3AF52160E133E00321089 /* EyeWeightsFiles */,
+				73B3AF64160E133E00321089 /* faceboxlist.h */,
+				73B3AF65160E133E00321089 /* faceobject.h */,
+				73B3AF66160E133E00321089 /* featuredata.h */,
+				73B3AF67160E133E00321089 /* gentleFace1.h */,
+				73B3AF68160E133E00321089 /* interpolate.h */,
+				73B3AF69160E133E00321089 /* mpiimage.h */,
+				73B3AF6A160E133E00321089 /* mpisearch.h */,
+				73B3AF6B160E133E00321089 /* mpisearchBinary.h */,
+				73B3AF6C160E133E00321089 /* mpisearchFaceDetector.h */,
+				73B3AF40160E131B00321089 /* area.h */,
+				73B3AF41160E131B00321089 /* beyesobject.h */,
+				73B3AF42160E131B00321089 /* blink_wts.h */,
+				73B3AF43160E131B00321089 /* blink.h */,
+				73B3AF44160E131B00321089 /* ci.h */,
+				73B3AF45160E131B00321089 /* common.h */,
+				73B3AF46160E131B00321089 /* define.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		73B3AF52160E133E00321089 /* EyeWeightsFiles */ = {
+			isa = PBXGroup;
+			children = (
+				73B3AF53160E133E00321089 /* config.h */,
+				73B3AF54160E133E00321089 /* lefteye_eye_dist_eye_centered.h */,
+				73B3AF55160E133E00321089 /* lefteye_eye_dist_face_centered.h */,
+				73B3AF56160E133E00321089 /* lefteye_eye_only_eye_centered.h */,
+				73B3AF57160E133E00321089 /* lefteye_half_dist_eye_centered.h */,
+				73B3AF58160E133E00321089 /* lefteye_largest_2_eye_centered.h */,
+				73B3AF59160E133E00321089 /* lefteye_largest_eye_centered.h */,
+				73B3AF5A160E133E00321089 /* lefteye_largest_face_centered.h */,
+				73B3AF5B160E133E00321089 /* lefteye_smallest_eye_centered.h */,
+				73B3AF5C160E133E00321089 /* righteye_eye_dist_eye_centered.h */,
+				73B3AF5D160E133E00321089 /* righteye_eye_dist_face_centered.h */,
+				73B3AF5E160E133E00321089 /* righteye_eye_only_eye_centered.h */,
+				73B3AF5F160E133E00321089 /* righteye_half_dist_eye_centered.h */,
+				73B3AF60160E133E00321089 /* righteye_largest_2_eye_centered.h */,
+				73B3AF61160E133E00321089 /* righteye_largest_eye_centered.h */,
+				73B3AF62160E133E00321089 /* righteye_largest_face_centered.h */,
+				73B3AF63160E133E00321089 /* righteye_smallest_eye_centered.h */,
+			);
+			path = EyeWeightsFiles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC09905546B4700DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50149BDA09E781A5002DEE6A /* PSmile.h in Headers */,
+				93B18063136C12B90089CD2D /* pSmile_PSmile.h in Headers */,
+				73B3AF47160E131B00321089 /* area.h in Headers */,
+				73B3AF48160E131B00321089 /* beyesobject.h in Headers */,
+				73B3AF49160E131B00321089 /* blink_wts.h in Headers */,
+				73B3AF4A160E131B00321089 /* blink.h in Headers */,
+				73B3AF4B160E131B00321089 /* ci.h in Headers */,
+				73B3AF4C160E131B00321089 /* common.h in Headers */,
+				73B3AF4D160E131B00321089 /* define.h in Headers */,
+				73B3AF6D160E133E00321089 /* eye_finder_ROI.h in Headers */,
+				73B3AF6E160E133E00321089 /* eyefinder.h in Headers */,
+				73B3AF6F160E133E00321089 /* eyefinderBinary.h in Headers */,
+				73B3AF70160E133E00321089 /* eyeobject.h in Headers */,
+				73B3AF71160E133E00321089 /* config.h in Headers */,
+				73B3AF72160E133E00321089 /* lefteye_eye_dist_eye_centered.h in Headers */,
+				73B3AF73160E133E00321089 /* lefteye_eye_dist_face_centered.h in Headers */,
+				73B3AF74160E133E00321089 /* lefteye_eye_only_eye_centered.h in Headers */,
+				73B3AF75160E133E00321089 /* lefteye_half_dist_eye_centered.h in Headers */,
+				73B3AF76160E133E00321089 /* lefteye_largest_2_eye_centered.h in Headers */,
+				73B3AF77160E133E00321089 /* lefteye_largest_eye_centered.h in Headers */,
+				73B3AF78160E133E00321089 /* lefteye_largest_face_centered.h in Headers */,
+				73B3AF79160E133E00321089 /* lefteye_smallest_eye_centered.h in Headers */,
+				73B3AF7A160E133E00321089 /* righteye_eye_dist_eye_centered.h in Headers */,
+				73B3AF7B160E133E00321089 /* righteye_eye_dist_face_centered.h in Headers */,
+				73B3AF7C160E133E00321089 /* righteye_eye_only_eye_centered.h in Headers */,
+				73B3AF7D160E133E00321089 /* righteye_half_dist_eye_centered.h in Headers */,
+				73B3AF7E160E133E00321089 /* righteye_largest_2_eye_centered.h in Headers */,
+				73B3AF7F160E133E00321089 /* righteye_largest_eye_centered.h in Headers */,
+				73B3AF80160E133E00321089 /* righteye_largest_face_centered.h in Headers */,
+				73B3AF81160E133E00321089 /* righteye_smallest_eye_centered.h in Headers */,
+				73B3AF82160E133E00321089 /* faceboxlist.h in Headers */,
+				73B3AF83160E133E00321089 /* faceobject.h in Headers */,
+				73B3AF84160E133E00321089 /* featuredata.h in Headers */,
+				73B3AF85160E133E00321089 /* gentleFace1.h in Headers */,
+				73B3AF86160E133E00321089 /* interpolate.h in Headers */,
+				73B3AF87160E133E00321089 /* mpiimage.h in Headers */,
+				73B3AF88160E133E00321089 /* mpisearch.h in Headers */,
+				73B3AF89160E133E00321089 /* mpisearchBinary.h in Headers */,
+				73B3AF8A160E133E00321089 /* mpisearchFaceDetector.h in Headers */,
+				73B3AF90160E136900321089 /* rimage.h in Headers */,
+				73B3AF91160E136900321089 /* roi.h in Headers */,
+				73B3AF92160E136900321089 /* smile_wts.h in Headers */,
+				73B3AF93160E136900321089 /* smile.h in Headers */,
+				73B3AF94160E136900321089 /* square.h in Headers */,
+				73B3AF96160E137F00321089 /* visualobject.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC09C05546B4700DB518D /* PSmile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "PSmile" */;
+			buildPhases = (
+				D2AAC09905546B4700DB518D /* Headers */,
+				D2AAC09B05546B4700DB518D /* Frameworks */,
+				D2AAC09A05546B4700DB518D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PSmile;
+			productName = libPSmile;
+			productReference = D2AAC09D05546B4700DB518D /* libPSmile.jnilib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 1DEB916408733D950010E9CD /* Build configuration list for PBXProject "PSmile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* PSmile */;
+			productRefGroup = 034768DDFF38A45A11DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC09C05546B4700DB518D /* PSmile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC09A05546B4700DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5073E0CB09E734E500EC74B6 /* PSmile.cp in Sources */,
+				93B18065136C12D90089CD2D /* pSmile_PSmile.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB916108733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* PSmileTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_EXTENSION = jnilib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PSmile_Prefix.pch;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/System/Library/Frameworks/JavaVM.framework/Headers";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		1DEB916208733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C709E734A800EC74B6 /* PSmileTarget.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_EXTENSION = jnilib;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = PSmile_Prefix.pch;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/System/Library/Frameworks/JavaVM.framework/Headers";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = YES;
+				STRIP_STYLE = "non-global";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		1DEB916508733D950010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* PSmileProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Debug;
+		};
+		1DEB916608733D950010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5073E0C609E734A800EC74B6 /* PSmileProj.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LIBRARY_SEARCH_PATHS = "";
+				SDKROOT = macosx;
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB916008733D950010E9CD /* Build configuration list for PBXNativeTarget "PSmile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916108733D950010E9CD /* Debug */,
+				1DEB916208733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB916408733D950010E9CD /* Build configuration list for PBXProject "PSmile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB916508733D950010E9CD /* Debug */,
+				1DEB916608733D950010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}

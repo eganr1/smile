@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9322A48A136C1D0400404B9C /* beyesobject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A468136C1D0400404B9C /* beyesobject.cpp */; };
+		9322A48B136C1D0400404B9C /* blink_wts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A469136C1D0400404B9C /* blink_wts.cpp */; };
+		9322A48C136C1D0400404B9C /* blink.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A46A136C1D0400404B9C /* blink.cpp */; };
+		9322A48D136C1D0400404B9C /* ci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A46B136C1D0400404B9C /* ci.cpp */; };
+		9322A48E136C1D0400404B9C /* cluster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A46C136C1D0400404B9C /* cluster.cpp */; };
+		9322A48F136C1D0400404B9C /* eyefinder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A46D136C1D0400404B9C /* eyefinder.cpp */; };
+		9322A490136C1D0400404B9C /* eyefinderBinary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A46E136C1D0400404B9C /* eyefinderBinary.cpp */; };
+		9322A491136C1D0400404B9C /* eyeobject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A46F136C1D0400404B9C /* eyeobject.cpp */; };
+		9322A492136C1D0400404B9C /* lefteye_eye_dist_eye_centered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A471136C1D0400404B9C /* lefteye_eye_dist_eye_centered.cpp */; };
+		9322A493136C1D0400404B9C /* lefteye_eye_dist_face_centered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A472136C1D0400404B9C /* lefteye_eye_dist_face_centered.cpp */; };
+		9322A494136C1D0400404B9C /* lefteye_eye_only_eye_centered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A473136C1D0400404B9C /* lefteye_eye_only_eye_centered.cpp */; };
+		9322A495136C1D0400404B9C /* lefteye_half_dist_eye_centered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A474136C1D0400404B9C /* lefteye_half_dist_eye_centered.cpp */; };
+		9322A496136C1D0400404B9C /* lefteye_largest_2_eye_centered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A475136C1D0400404B9C /* lefteye_largest_2_eye_centered.cpp */; };
+		9322A497136C1D0400404B9C /* lefteye_largest_eye_centered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A476136C1D0400404B9C /* lefteye_largest_eye_centered.cpp */; };
+		9322A498136C1D0400404B9C /* lefteye_largest_face_centered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A477136C1D0400404B9C /* lefteye_largest_face_centered.cpp */; };
+		9322A499136C1D0400404B9C /* lefteye_smallest_eye_centered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A478136C1D0400404B9C /* lefteye_smallest_eye_centered.cpp */; };
+		9322A49A136C1D0400404B9C /* righteye_eye_dist_eye_centered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A479136C1D0400404B9C /* righteye_eye_dist_eye_centered.cpp */; };
+		9322A49B136C1D0400404B9C /* righteye_eye_dist_face_centered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A47A136C1D0400404B9C /* righteye_eye_dist_face_centered.cpp */; };
+		9322A49C136C1D0400404B9C /* righteye_eye_only_eye_centered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A47B136C1D0400404B9C /* righteye_eye_only_eye_centered.cpp */; };
+		9322A49D136C1D0400404B9C /* righteye_half_dist_eye_centered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A47C136C1D0400404B9C /* righteye_half_dist_eye_centered.cpp */; };
+		9322A49E136C1D0400404B9C /* righteye_largest_2_eye_centered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A47D136C1D0400404B9C /* righteye_largest_2_eye_centered.cpp */; };
+		9322A49F136C1D0400404B9C /* righteye_largest_eye_centered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A47E136C1D0400404B9C /* righteye_largest_eye_centered.cpp */; };
+		9322A4A0136C1D0400404B9C /* righteye_largest_face_centered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A47F136C1D0400404B9C /* righteye_largest_face_centered.cpp */; };
+		9322A4A1136C1D0400404B9C /* righteye_smallest_eye_centered.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A480136C1D0400404B9C /* righteye_smallest_eye_centered.cpp */; };
+		9322A4A2136C1D0400404B9C /* faceboxlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A481136C1D0400404B9C /* faceboxlist.cpp */; };
+		9322A4A3136C1D0400404B9C /* faceobject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A482136C1D0400404B9C /* faceobject.cpp */; };
+		9322A4A4136C1D0400404B9C /* gentleFace1.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A483136C1D0400404B9C /* gentleFace1.cpp */; };
+		9322A4A5136C1D0400404B9C /* mpisearchFaceDetector.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A484136C1D0400404B9C /* mpisearchFaceDetector.cpp */; };
+		9322A4A6136C1D0400404B9C /* roi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A485136C1D0400404B9C /* roi.cpp */; };
+		9322A4A7136C1D0400404B9C /* smile_wts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A486136C1D0400404B9C /* smile_wts.cpp */; };
+		9322A4A8136C1D0400404B9C /* smile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A487136C1D0400404B9C /* smile.cpp */; };
+		9322A4A9136C1D0400404B9C /* square.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A488136C1D0400404B9C /* square.cpp */; };
+		9322A4AA136C1D0400404B9C /* visualobject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9322A489136C1D0400404B9C /* visualobject.cpp */; };
+		93C7672B160C1DC500AF92DD /* area.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76710160C1DC500AF92DD /* area.h */; };
+		93C7672C160C1DC500AF92DD /* beyesobject.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76711160C1DC500AF92DD /* beyesobject.h */; };
+		93C7672D160C1DC500AF92DD /* blink_wts.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76712160C1DC500AF92DD /* blink_wts.h */; };
+		93C7672E160C1DC500AF92DD /* blink.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76713160C1DC500AF92DD /* blink.h */; };
+		93C7672F160C1DC500AF92DD /* ci.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76714160C1DC500AF92DD /* ci.h */; };
+		93C76730160C1DC500AF92DD /* cluster.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76715160C1DC500AF92DD /* cluster.h */; };
+		93C76731160C1DC500AF92DD /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76716160C1DC500AF92DD /* common.h */; };
+		93C76732160C1DC500AF92DD /* define.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76717160C1DC500AF92DD /* define.h */; };
+		93C76733160C1DC500AF92DD /* eye_finder_ROI.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76718160C1DC500AF92DD /* eye_finder_ROI.h */; };
+		93C76734160C1DC500AF92DD /* eyefinder.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76719160C1DC500AF92DD /* eyefinder.h */; };
+		93C76735160C1DC500AF92DD /* eyefinderBinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C7671A160C1DC500AF92DD /* eyefinderBinary.h */; };
+		93C76736160C1DC500AF92DD /* eyeobject.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C7671B160C1DC500AF92DD /* eyeobject.h */; };
+		93C76737160C1DC500AF92DD /* faceboxlist.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C7671C160C1DC500AF92DD /* faceboxlist.h */; };
+		93C76738160C1DC500AF92DD /* faceobject.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C7671D160C1DC500AF92DD /* faceobject.h */; };
+		93C76739160C1DC500AF92DD /* featuredata.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C7671E160C1DC500AF92DD /* featuredata.h */; };
+		93C7673A160C1DC500AF92DD /* gentleFace1.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C7671F160C1DC500AF92DD /* gentleFace1.h */; };
+		93C7673B160C1DC500AF92DD /* interpolate.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76720160C1DC500AF92DD /* interpolate.h */; };
+		93C7673C160C1DC500AF92DD /* mpiimage.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76721160C1DC500AF92DD /* mpiimage.h */; };
+		93C7673D160C1DC500AF92DD /* mpisearch.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76722160C1DC500AF92DD /* mpisearch.h */; };
+		93C7673E160C1DC500AF92DD /* mpisearchBinary.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76723160C1DC500AF92DD /* mpisearchBinary.h */; };
+		93C7673F160C1DC500AF92DD /* mpisearchFaceDetector.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76724160C1DC500AF92DD /* mpisearchFaceDetector.h */; };
+		93C76740160C1DC500AF92DD /* rimage.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76725160C1DC500AF92DD /* rimage.h */; };
+		93C76741160C1DC500AF92DD /* roi.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76726160C1DC500AF92DD /* roi.h */; };
+		93C76742160C1DC500AF92DD /* smile_wts.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76727160C1DC500AF92DD /* smile_wts.h */; };
+		93C76743160C1DC500AF92DD /* smile.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76728160C1DC500AF92DD /* smile.h */; };
+		93C76744160C1DC500AF92DD /* square.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76729160C1DC500AF92DD /* square.h */; };
+		93C76745160C1DC500AF92DD /* visualobject.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C7672A160C1DC500AF92DD /* visualobject.h */; };
+		93C76757160C1DFB00AF92DD /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76746160C1DFB00AF92DD /* config.h */; };
+		93C76758160C1DFB00AF92DD /* lefteye_eye_dist_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76747160C1DFB00AF92DD /* lefteye_eye_dist_eye_centered.h */; };
+		93C76759160C1DFB00AF92DD /* lefteye_eye_dist_face_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76748160C1DFB00AF92DD /* lefteye_eye_dist_face_centered.h */; };
+		93C7675A160C1DFB00AF92DD /* lefteye_eye_only_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76749160C1DFB00AF92DD /* lefteye_eye_only_eye_centered.h */; };
+		93C7675B160C1DFB00AF92DD /* lefteye_half_dist_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C7674A160C1DFB00AF92DD /* lefteye_half_dist_eye_centered.h */; };
+		93C7675C160C1DFB00AF92DD /* lefteye_largest_2_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C7674B160C1DFB00AF92DD /* lefteye_largest_2_eye_centered.h */; };
+		93C7675D160C1DFB00AF92DD /* lefteye_largest_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C7674C160C1DFB00AF92DD /* lefteye_largest_eye_centered.h */; };
+		93C7675E160C1DFB00AF92DD /* lefteye_largest_face_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C7674D160C1DFB00AF92DD /* lefteye_largest_face_centered.h */; };
+		93C7675F160C1DFB00AF92DD /* lefteye_smallest_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C7674E160C1DFB00AF92DD /* lefteye_smallest_eye_centered.h */; };
+		93C76760160C1DFB00AF92DD /* righteye_eye_dist_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C7674F160C1DFB00AF92DD /* righteye_eye_dist_eye_centered.h */; };
+		93C76761160C1DFB00AF92DD /* righteye_eye_dist_face_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76750160C1DFB00AF92DD /* righteye_eye_dist_face_centered.h */; };
+		93C76762160C1DFB00AF92DD /* righteye_eye_only_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76751160C1DFB00AF92DD /* righteye_eye_only_eye_centered.h */; };
+		93C76763160C1DFB00AF92DD /* righteye_half_dist_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76752160C1DFB00AF92DD /* righteye_half_dist_eye_centered.h */; };
+		93C76764160C1DFB00AF92DD /* righteye_largest_2_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76753160C1DFB00AF92DD /* righteye_largest_2_eye_centered.h */; };
+		93C76765160C1DFB00AF92DD /* righteye_largest_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76754160C1DFB00AF92DD /* righteye_largest_eye_centered.h */; };
+		93C76766160C1DFB00AF92DD /* righteye_largest_face_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76755160C1DFB00AF92DD /* righteye_largest_face_centered.h */; };
+		93C76767160C1DFB00AF92DD /* righteye_smallest_eye_centered.h in Headers */ = {isa = PBXBuildFile; fileRef = 93C76756160C1DFB00AF92DD /* righteye_smallest_eye_centered.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9322A468136C1D0400404B9C /* beyesobject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = beyesobject.cpp; sourceTree = "<group>"; };
+		9322A469136C1D0400404B9C /* blink_wts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blink_wts.cpp; sourceTree = "<group>"; };
+		9322A46A136C1D0400404B9C /* blink.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blink.cpp; sourceTree = "<group>"; };
+		9322A46B136C1D0400404B9C /* ci.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ci.cpp; sourceTree = "<group>"; };
+		9322A46C136C1D0400404B9C /* cluster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = cluster.cpp; sourceTree = "<group>"; };
+		9322A46D136C1D0400404B9C /* eyefinder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eyefinder.cpp; sourceTree = "<group>"; };
+		9322A46E136C1D0400404B9C /* eyefinderBinary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eyefinderBinary.cpp; sourceTree = "<group>"; };
+		9322A46F136C1D0400404B9C /* eyeobject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = eyeobject.cpp; sourceTree = "<group>"; };
+		9322A471136C1D0400404B9C /* lefteye_eye_dist_eye_centered.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lefteye_eye_dist_eye_centered.cpp; sourceTree = "<group>"; };
+		9322A472136C1D0400404B9C /* lefteye_eye_dist_face_centered.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lefteye_eye_dist_face_centered.cpp; sourceTree = "<group>"; };
+		9322A473136C1D0400404B9C /* lefteye_eye_only_eye_centered.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lefteye_eye_only_eye_centered.cpp; sourceTree = "<group>"; };
+		9322A474136C1D0400404B9C /* lefteye_half_dist_eye_centered.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lefteye_half_dist_eye_centered.cpp; sourceTree = "<group>"; };
+		9322A475136C1D0400404B9C /* lefteye_largest_2_eye_centered.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lefteye_largest_2_eye_centered.cpp; sourceTree = "<group>"; };
+		9322A476136C1D0400404B9C /* lefteye_largest_eye_centered.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lefteye_largest_eye_centered.cpp; sourceTree = "<group>"; };
+		9322A477136C1D0400404B9C /* lefteye_largest_face_centered.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lefteye_largest_face_centered.cpp; sourceTree = "<group>"; };
+		9322A478136C1D0400404B9C /* lefteye_smallest_eye_centered.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = lefteye_smallest_eye_centered.cpp; sourceTree = "<group>"; };
+		9322A479136C1D0400404B9C /* righteye_eye_dist_eye_centered.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = righteye_eye_dist_eye_centered.cpp; sourceTree = "<group>"; };
+		9322A47A136C1D0400404B9C /* righteye_eye_dist_face_centered.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = righteye_eye_dist_face_centered.cpp; sourceTree = "<group>"; };
+		9322A47B136C1D0400404B9C /* righteye_eye_only_eye_centered.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = righteye_eye_only_eye_centered.cpp; sourceTree = "<group>"; };
+		9322A47C136C1D0400404B9C /* righteye_half_dist_eye_centered.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = righteye_half_dist_eye_centered.cpp; sourceTree = "<group>"; };
+		9322A47D136C1D0400404B9C /* righteye_largest_2_eye_centered.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = righteye_largest_2_eye_centered.cpp; sourceTree = "<group>"; };
+		9322A47E136C1D0400404B9C /* righteye_largest_eye_centered.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = righteye_largest_eye_centered.cpp; sourceTree = "<group>"; };
+		9322A47F136C1D0400404B9C /* righteye_largest_face_centered.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = righteye_largest_face_centered.cpp; sourceTree = "<group>"; };
+		9322A480136C1D0400404B9C /* righteye_smallest_eye_centered.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = righteye_smallest_eye_centered.cpp; sourceTree = "<group>"; };
+		9322A481136C1D0400404B9C /* faceboxlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = faceboxlist.cpp; sourceTree = "<group>"; };
+		9322A482136C1D0400404B9C /* faceobject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = faceobject.cpp; sourceTree = "<group>"; };
+		9322A483136C1D0400404B9C /* gentleFace1.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gentleFace1.cpp; sourceTree = "<group>"; };
+		9322A484136C1D0400404B9C /* mpisearchFaceDetector.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = mpisearchFaceDetector.cpp; sourceTree = "<group>"; };
+		9322A485136C1D0400404B9C /* roi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = roi.cpp; sourceTree = "<group>"; };
+		9322A486136C1D0400404B9C /* smile_wts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = smile_wts.cpp; sourceTree = "<group>"; };
+		9322A487136C1D0400404B9C /* smile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = smile.cpp; sourceTree = "<group>"; };
+		9322A488136C1D0400404B9C /* square.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = square.cpp; sourceTree = "<group>"; };
+		9322A489136C1D0400404B9C /* visualobject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = visualobject.cpp; sourceTree = "<group>"; };
+		93C76710160C1DC500AF92DD /* area.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = area.h; path = include/area.h; sourceTree = "<group>"; };
+		93C76711160C1DC500AF92DD /* beyesobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = beyesobject.h; path = include/beyesobject.h; sourceTree = "<group>"; };
+		93C76712160C1DC500AF92DD /* blink_wts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = blink_wts.h; path = include/blink_wts.h; sourceTree = "<group>"; };
+		93C76713160C1DC500AF92DD /* blink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = blink.h; path = include/blink.h; sourceTree = "<group>"; };
+		93C76714160C1DC500AF92DD /* ci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ci.h; path = include/ci.h; sourceTree = "<group>"; };
+		93C76715160C1DC500AF92DD /* cluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cluster.h; path = include/cluster.h; sourceTree = "<group>"; };
+		93C76716160C1DC500AF92DD /* common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = common.h; path = include/common.h; sourceTree = "<group>"; };
+		93C76717160C1DC500AF92DD /* define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = define.h; path = include/define.h; sourceTree = "<group>"; };
+		93C76718160C1DC500AF92DD /* eye_finder_ROI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = eye_finder_ROI.h; path = include/eye_finder_ROI.h; sourceTree = "<group>"; };
+		93C76719160C1DC500AF92DD /* eyefinder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = eyefinder.h; path = include/eyefinder.h; sourceTree = "<group>"; };
+		93C7671A160C1DC500AF92DD /* eyefinderBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = eyefinderBinary.h; path = include/eyefinderBinary.h; sourceTree = "<group>"; };
+		93C7671B160C1DC500AF92DD /* eyeobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = eyeobject.h; path = include/eyeobject.h; sourceTree = "<group>"; };
+		93C7671C160C1DC500AF92DD /* faceboxlist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = faceboxlist.h; path = include/faceboxlist.h; sourceTree = "<group>"; };
+		93C7671D160C1DC500AF92DD /* faceobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = faceobject.h; path = include/faceobject.h; sourceTree = "<group>"; };
+		93C7671E160C1DC500AF92DD /* featuredata.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = featuredata.h; path = include/featuredata.h; sourceTree = "<group>"; };
+		93C7671F160C1DC500AF92DD /* gentleFace1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = gentleFace1.h; path = include/gentleFace1.h; sourceTree = "<group>"; };
+		93C76720160C1DC500AF92DD /* interpolate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = interpolate.h; path = include/interpolate.h; sourceTree = "<group>"; };
+		93C76721160C1DC500AF92DD /* mpiimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mpiimage.h; path = include/mpiimage.h; sourceTree = "<group>"; };
+		93C76722160C1DC500AF92DD /* mpisearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mpisearch.h; path = include/mpisearch.h; sourceTree = "<group>"; };
+		93C76723160C1DC500AF92DD /* mpisearchBinary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mpisearchBinary.h; path = include/mpisearchBinary.h; sourceTree = "<group>"; };
+		93C76724160C1DC500AF92DD /* mpisearchFaceDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = mpisearchFaceDetector.h; path = include/mpisearchFaceDetector.h; sourceTree = "<group>"; };
+		93C76725160C1DC500AF92DD /* rimage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rimage.h; path = include/rimage.h; sourceTree = "<group>"; };
+		93C76726160C1DC500AF92DD /* roi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = roi.h; path = include/roi.h; sourceTree = "<group>"; };
+		93C76727160C1DC500AF92DD /* smile_wts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = smile_wts.h; path = include/smile_wts.h; sourceTree = "<group>"; };
+		93C76728160C1DC500AF92DD /* smile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = smile.h; path = include/smile.h; sourceTree = "<group>"; };
+		93C76729160C1DC500AF92DD /* square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = square.h; path = include/square.h; sourceTree = "<group>"; };
+		93C7672A160C1DC500AF92DD /* visualobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = visualobject.h; path = include/visualobject.h; sourceTree = "<group>"; };
+		93C76746160C1DFB00AF92DD /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = config.h; path = include/EyeWeightsFiles/config.h; sourceTree = "<group>"; };
+		93C76747160C1DFB00AF92DD /* lefteye_eye_dist_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lefteye_eye_dist_eye_centered.h; path = include/EyeWeightsFiles/lefteye_eye_dist_eye_centered.h; sourceTree = "<group>"; };
+		93C76748160C1DFB00AF92DD /* lefteye_eye_dist_face_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lefteye_eye_dist_face_centered.h; path = include/EyeWeightsFiles/lefteye_eye_dist_face_centered.h; sourceTree = "<group>"; };
+		93C76749160C1DFB00AF92DD /* lefteye_eye_only_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lefteye_eye_only_eye_centered.h; path = include/EyeWeightsFiles/lefteye_eye_only_eye_centered.h; sourceTree = "<group>"; };
+		93C7674A160C1DFB00AF92DD /* lefteye_half_dist_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lefteye_half_dist_eye_centered.h; path = include/EyeWeightsFiles/lefteye_half_dist_eye_centered.h; sourceTree = "<group>"; };
+		93C7674B160C1DFB00AF92DD /* lefteye_largest_2_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lefteye_largest_2_eye_centered.h; path = include/EyeWeightsFiles/lefteye_largest_2_eye_centered.h; sourceTree = "<group>"; };
+		93C7674C160C1DFB00AF92DD /* lefteye_largest_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lefteye_largest_eye_centered.h; path = include/EyeWeightsFiles/lefteye_largest_eye_centered.h; sourceTree = "<group>"; };
+		93C7674D160C1DFB00AF92DD /* lefteye_largest_face_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lefteye_largest_face_centered.h; path = include/EyeWeightsFiles/lefteye_largest_face_centered.h; sourceTree = "<group>"; };
+		93C7674E160C1DFB00AF92DD /* lefteye_smallest_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = lefteye_smallest_eye_centered.h; path = include/EyeWeightsFiles/lefteye_smallest_eye_centered.h; sourceTree = "<group>"; };
+		93C7674F160C1DFB00AF92DD /* righteye_eye_dist_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = righteye_eye_dist_eye_centered.h; path = include/EyeWeightsFiles/righteye_eye_dist_eye_centered.h; sourceTree = "<group>"; };
+		93C76750160C1DFB00AF92DD /* righteye_eye_dist_face_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = righteye_eye_dist_face_centered.h; path = include/EyeWeightsFiles/righteye_eye_dist_face_centered.h; sourceTree = "<group>"; };
+		93C76751160C1DFB00AF92DD /* righteye_eye_only_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = righteye_eye_only_eye_centered.h; path = include/EyeWeightsFiles/righteye_eye_only_eye_centered.h; sourceTree = "<group>"; };
+		93C76752160C1DFB00AF92DD /* righteye_half_dist_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = righteye_half_dist_eye_centered.h; path = include/EyeWeightsFiles/righteye_half_dist_eye_centered.h; sourceTree = "<group>"; };
+		93C76753160C1DFB00AF92DD /* righteye_largest_2_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = righteye_largest_2_eye_centered.h; path = include/EyeWeightsFiles/righteye_largest_2_eye_centered.h; sourceTree = "<group>"; };
+		93C76754160C1DFB00AF92DD /* righteye_largest_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = righteye_largest_eye_centered.h; path = include/EyeWeightsFiles/righteye_largest_eye_centered.h; sourceTree = "<group>"; };
+		93C76755160C1DFB00AF92DD /* righteye_largest_face_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = righteye_largest_face_centered.h; path = include/EyeWeightsFiles/righteye_largest_face_centered.h; sourceTree = "<group>"; };
+		93C76756160C1DFB00AF92DD /* righteye_smallest_eye_centered.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = righteye_smallest_eye_centered.h; path = include/EyeWeightsFiles/righteye_smallest_eye_centered.h; sourceTree = "<group>"; };
+		D2AAC046055464E500DB518D /* libmpi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmpi.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08FB7794FE84155DC02AAC07 /* mpi */ = {
+			isa = PBXGroup;
+			children = (
+				93C7670E160C1C6100AF92DD /* Header */,
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = mpi;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9322A468136C1D0400404B9C /* beyesobject.cpp */,
+				9322A469136C1D0400404B9C /* blink_wts.cpp */,
+				9322A46A136C1D0400404B9C /* blink.cpp */,
+				9322A46B136C1D0400404B9C /* ci.cpp */,
+				9322A46C136C1D0400404B9C /* cluster.cpp */,
+				9322A46D136C1D0400404B9C /* eyefinder.cpp */,
+				9322A46E136C1D0400404B9C /* eyefinderBinary.cpp */,
+				9322A46F136C1D0400404B9C /* eyeobject.cpp */,
+				9322A470136C1D0400404B9C /* EyeWeightsFiles */,
+				9322A481136C1D0400404B9C /* faceboxlist.cpp */,
+				9322A482136C1D0400404B9C /* faceobject.cpp */,
+				9322A483136C1D0400404B9C /* gentleFace1.cpp */,
+				9322A484136C1D0400404B9C /* mpisearchFaceDetector.cpp */,
+				9322A485136C1D0400404B9C /* roi.cpp */,
+				9322A486136C1D0400404B9C /* smile_wts.cpp */,
+				9322A487136C1D0400404B9C /* smile.cpp */,
+				9322A488136C1D0400404B9C /* square.cpp */,
+				9322A489136C1D0400404B9C /* visualobject.cpp */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libmpi.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9322A470136C1D0400404B9C /* EyeWeightsFiles */ = {
+			isa = PBXGroup;
+			children = (
+				9322A471136C1D0400404B9C /* lefteye_eye_dist_eye_centered.cpp */,
+				9322A472136C1D0400404B9C /* lefteye_eye_dist_face_centered.cpp */,
+				9322A473136C1D0400404B9C /* lefteye_eye_only_eye_centered.cpp */,
+				9322A474136C1D0400404B9C /* lefteye_half_dist_eye_centered.cpp */,
+				9322A475136C1D0400404B9C /* lefteye_largest_2_eye_centered.cpp */,
+				9322A476136C1D0400404B9C /* lefteye_largest_eye_centered.cpp */,
+				9322A477136C1D0400404B9C /* lefteye_largest_face_centered.cpp */,
+				9322A478136C1D0400404B9C /* lefteye_smallest_eye_centered.cpp */,
+				9322A479136C1D0400404B9C /* righteye_eye_dist_eye_centered.cpp */,
+				9322A47A136C1D0400404B9C /* righteye_eye_dist_face_centered.cpp */,
+				9322A47B136C1D0400404B9C /* righteye_eye_only_eye_centered.cpp */,
+				9322A47C136C1D0400404B9C /* righteye_half_dist_eye_centered.cpp */,
+				9322A47D136C1D0400404B9C /* righteye_largest_2_eye_centered.cpp */,
+				9322A47E136C1D0400404B9C /* righteye_largest_eye_centered.cpp */,
+				9322A47F136C1D0400404B9C /* righteye_largest_face_centered.cpp */,
+				9322A480136C1D0400404B9C /* righteye_smallest_eye_centered.cpp */,
+			);
+			path = EyeWeightsFiles;
+			sourceTree = "<group>";
+		};
+		93C7670E160C1C6100AF92DD /* Header */ = {
+			isa = PBXGroup;
+			children = (
+				93C76710160C1DC500AF92DD /* area.h */,
+				93C76711160C1DC500AF92DD /* beyesobject.h */,
+				93C76712160C1DC500AF92DD /* blink_wts.h */,
+				93C76713160C1DC500AF92DD /* blink.h */,
+				93C76714160C1DC500AF92DD /* ci.h */,
+				93C76715160C1DC500AF92DD /* cluster.h */,
+				93C76716160C1DC500AF92DD /* common.h */,
+				93C76717160C1DC500AF92DD /* define.h */,
+				93C76718160C1DC500AF92DD /* eye_finder_ROI.h */,
+				93C76719160C1DC500AF92DD /* eyefinder.h */,
+				93C7671A160C1DC500AF92DD /* eyefinderBinary.h */,
+				93C7671B160C1DC500AF92DD /* eyeobject.h */,
+				93C7671C160C1DC500AF92DD /* faceboxlist.h */,
+				93C7671D160C1DC500AF92DD /* faceobject.h */,
+				93C7671E160C1DC500AF92DD /* featuredata.h */,
+				93C7671F160C1DC500AF92DD /* gentleFace1.h */,
+				93C76720160C1DC500AF92DD /* interpolate.h */,
+				93C76721160C1DC500AF92DD /* mpiimage.h */,
+				93C76722160C1DC500AF92DD /* mpisearch.h */,
+				93C76723160C1DC500AF92DD /* mpisearchBinary.h */,
+				93C76724160C1DC500AF92DD /* mpisearchFaceDetector.h */,
+				93C76725160C1DC500AF92DD /* rimage.h */,
+				93C76726160C1DC500AF92DD /* roi.h */,
+				93C76727160C1DC500AF92DD /* smile_wts.h */,
+				93C76728160C1DC500AF92DD /* smile.h */,
+				93C76729160C1DC500AF92DD /* square.h */,
+				93C7672A160C1DC500AF92DD /* visualobject.h */,
+				93C7670F160C1D1100AF92DD /* EyeWeightsFiles */,
+			);
+			name = Header;
+			sourceTree = "<group>";
+		};
+		93C7670F160C1D1100AF92DD /* EyeWeightsFiles */ = {
+			isa = PBXGroup;
+			children = (
+				93C76746160C1DFB00AF92DD /* config.h */,
+				93C76747160C1DFB00AF92DD /* lefteye_eye_dist_eye_centered.h */,
+				93C76748160C1DFB00AF92DD /* lefteye_eye_dist_face_centered.h */,
+				93C76749160C1DFB00AF92DD /* lefteye_eye_only_eye_centered.h */,
+				93C7674A160C1DFB00AF92DD /* lefteye_half_dist_eye_centered.h */,
+				93C7674B160C1DFB00AF92DD /* lefteye_largest_2_eye_centered.h */,
+				93C7674C160C1DFB00AF92DD /* lefteye_largest_eye_centered.h */,
+				93C7674D160C1DFB00AF92DD /* lefteye_largest_face_centered.h */,
+				93C7674E160C1DFB00AF92DD /* lefteye_smallest_eye_centered.h */,
+				93C7674F160C1DFB00AF92DD /* righteye_eye_dist_eye_centered.h */,
+				93C76750160C1DFB00AF92DD /* righteye_eye_dist_face_centered.h */,
+				93C76751160C1DFB00AF92DD /* righteye_eye_only_eye_centered.h */,
+				93C76752160C1DFB00AF92DD /* righteye_half_dist_eye_centered.h */,
+				93C76753160C1DFB00AF92DD /* righteye_largest_2_eye_centered.h */,
+				93C76754160C1DFB00AF92DD /* righteye_largest_eye_centered.h */,
+				93C76755160C1DFB00AF92DD /* righteye_largest_face_centered.h */,
+				93C76756160C1DFB00AF92DD /* righteye_smallest_eye_centered.h */,
+			);
+			name = EyeWeightsFiles;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93C7672B160C1DC500AF92DD /* area.h in Headers */,
+				93C7672C160C1DC500AF92DD /* beyesobject.h in Headers */,
+				93C7672D160C1DC500AF92DD /* blink_wts.h in Headers */,
+				93C7672E160C1DC500AF92DD /* blink.h in Headers */,
+				93C7672F160C1DC500AF92DD /* ci.h in Headers */,
+				93C76730160C1DC500AF92DD /* cluster.h in Headers */,
+				93C76731160C1DC500AF92DD /* common.h in Headers */,
+				93C76732160C1DC500AF92DD /* define.h in Headers */,
+				93C76733160C1DC500AF92DD /* eye_finder_ROI.h in Headers */,
+				93C76734160C1DC500AF92DD /* eyefinder.h in Headers */,
+				93C76735160C1DC500AF92DD /* eyefinderBinary.h in Headers */,
+				93C76736160C1DC500AF92DD /* eyeobject.h in Headers */,
+				93C76737160C1DC500AF92DD /* faceboxlist.h in Headers */,
+				93C76738160C1DC500AF92DD /* faceobject.h in Headers */,
+				93C76739160C1DC500AF92DD /* featuredata.h in Headers */,
+				93C7673A160C1DC500AF92DD /* gentleFace1.h in Headers */,
+				93C7673B160C1DC500AF92DD /* interpolate.h in Headers */,
+				93C7673C160C1DC500AF92DD /* mpiimage.h in Headers */,
+				93C7673D160C1DC500AF92DD /* mpisearch.h in Headers */,
+				93C7673E160C1DC500AF92DD /* mpisearchBinary.h in Headers */,
+				93C7673F160C1DC500AF92DD /* mpisearchFaceDetector.h in Headers */,
+				93C76740160C1DC500AF92DD /* rimage.h in Headers */,
+				93C76741160C1DC500AF92DD /* roi.h in Headers */,
+				93C76742160C1DC500AF92DD /* smile_wts.h in Headers */,
+				93C76743160C1DC500AF92DD /* smile.h in Headers */,
+				93C76744160C1DC500AF92DD /* square.h in Headers */,
+				93C76745160C1DC500AF92DD /* visualobject.h in Headers */,
+				93C76757160C1DFB00AF92DD /* config.h in Headers */,
+				93C76758160C1DFB00AF92DD /* lefteye_eye_dist_eye_centered.h in Headers */,
+				93C76759160C1DFB00AF92DD /* lefteye_eye_dist_face_centered.h in Headers */,
+				93C7675A160C1DFB00AF92DD /* lefteye_eye_only_eye_centered.h in Headers */,
+				93C7675B160C1DFB00AF92DD /* lefteye_half_dist_eye_centered.h in Headers */,
+				93C7675C160C1DFB00AF92DD /* lefteye_largest_2_eye_centered.h in Headers */,
+				93C7675D160C1DFB00AF92DD /* lefteye_largest_eye_centered.h in Headers */,
+				93C7675E160C1DFB00AF92DD /* lefteye_largest_face_centered.h in Headers */,
+				93C7675F160C1DFB00AF92DD /* lefteye_smallest_eye_centered.h in Headers */,
+				93C76760160C1DFB00AF92DD /* righteye_eye_dist_eye_centered.h in Headers */,
+				93C76761160C1DFB00AF92DD /* righteye_eye_dist_face_centered.h in Headers */,
+				93C76762160C1DFB00AF92DD /* righteye_eye_only_eye_centered.h in Headers */,
+				93C76763160C1DFB00AF92DD /* righteye_half_dist_eye_centered.h in Headers */,
+				93C76764160C1DFB00AF92DD /* righteye_largest_2_eye_centered.h in Headers */,
+				93C76765160C1DFB00AF92DD /* righteye_largest_eye_centered.h in Headers */,
+				93C76766160C1DFB00AF92DD /* righteye_largest_face_centered.h in Headers */,
+				93C76767160C1DFB00AF92DD /* righteye_smallest_eye_centered.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC045055464E500DB518D /* mpi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "mpi" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mpi;
+			productName = mpi;
+			productReference = D2AAC046055464E500DB518D /* libmpi.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+			};
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "mpi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* mpi */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* mpi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9322A48A136C1D0400404B9C /* beyesobject.cpp in Sources */,
+				9322A48B136C1D0400404B9C /* blink_wts.cpp in Sources */,
+				9322A48C136C1D0400404B9C /* blink.cpp in Sources */,
+				9322A48D136C1D0400404B9C /* ci.cpp in Sources */,
+				9322A48E136C1D0400404B9C /* cluster.cpp in Sources */,
+				9322A48F136C1D0400404B9C /* eyefinder.cpp in Sources */,
+				9322A490136C1D0400404B9C /* eyefinderBinary.cpp in Sources */,
+				9322A491136C1D0400404B9C /* eyeobject.cpp in Sources */,
+				9322A492136C1D0400404B9C /* lefteye_eye_dist_eye_centered.cpp in Sources */,
+				9322A493136C1D0400404B9C /* lefteye_eye_dist_face_centered.cpp in Sources */,
+				9322A494136C1D0400404B9C /* lefteye_eye_only_eye_centered.cpp in Sources */,
+				9322A495136C1D0400404B9C /* lefteye_half_dist_eye_centered.cpp in Sources */,
+				9322A496136C1D0400404B9C /* lefteye_largest_2_eye_centered.cpp in Sources */,
+				9322A497136C1D0400404B9C /* lefteye_largest_eye_centered.cpp in Sources */,
+				9322A498136C1D0400404B9C /* lefteye_largest_face_centered.cpp in Sources */,
+				9322A499136C1D0400404B9C /* lefteye_smallest_eye_centered.cpp in Sources */,
+				9322A49A136C1D0400404B9C /* righteye_eye_dist_eye_centered.cpp in Sources */,
+				9322A49B136C1D0400404B9C /* righteye_eye_dist_face_centered.cpp in Sources */,
+				9322A49C136C1D0400404B9C /* righteye_eye_only_eye_centered.cpp in Sources */,
+				9322A49D136C1D0400404B9C /* righteye_half_dist_eye_centered.cpp in Sources */,
+				9322A49E136C1D0400404B9C /* righteye_largest_2_eye_centered.cpp in Sources */,
+				9322A49F136C1D0400404B9C /* righteye_largest_eye_centered.cpp in Sources */,
+				9322A4A0136C1D0400404B9C /* righteye_largest_face_centered.cpp in Sources */,
+				9322A4A1136C1D0400404B9C /* righteye_smallest_eye_centered.cpp in Sources */,
+				9322A4A2136C1D0400404B9C /* faceboxlist.cpp in Sources */,
+				9322A4A3136C1D0400404B9C /* faceobject.cpp in Sources */,
+				9322A4A4136C1D0400404B9C /* gentleFace1.cpp in Sources */,
+				9322A4A5136C1D0400404B9C /* mpisearchFaceDetector.cpp in Sources */,
+				9322A4A6136C1D0400404B9C /* roi.cpp in Sources */,
+				9322A4A7136C1D0400404B9C /* smile_wts.cpp in Sources */,
+				9322A4A8136C1D0400404B9C /* smile.cpp in Sources */,
+				9322A4A9136C1D0400404B9C /* square.cpp in Sources */,
+				9322A4AA136C1D0400404B9C /* visualobject.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91EC08733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_EXTENSION = a;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = mpi;
+			};
+			name = Debug;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_EXTENSION = a;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				MACH_O_TYPE = staticlib;
+				PRODUCT_NAME = mpi;
+			};
+			name = Release;
+		};
+		1DEB91F008733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/include/**";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Debug;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/include/**";
+				SDKROOT = macosx;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "mpi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91EC08733DB70010E9CD /* Debug */,
+				1DEB91ED08733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "mpi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F008733DB70010E9CD /* Debug */,
+				1DEB91F108733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

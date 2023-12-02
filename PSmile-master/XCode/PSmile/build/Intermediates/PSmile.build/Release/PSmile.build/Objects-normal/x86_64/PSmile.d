@@ -1,0 +1,22 @@
+dependencies: \
+  /Users/chungbryan/Documents/My_Applications/PSmile/PSmile.cp \
+  /Users/chungbryan/Documents/My_Applications/PSmile/PSmile.h \
+  /Users/chungbryan/Documents/My_Applications/PSmile/pSmile_PSmile.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers/jni.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/JavaVM.framework/Headers/jni_md.h \
+  /Users/chungbryan/Documents/My_Applications/PSmile/smile.h \
+  /Users/chungbryan/Documents/My_Applications/PSmile/eyefinderBinary.h \
+  /Users/chungbryan/Documents/My_Applications/PSmile/eyefinder.h \
+  /Users/chungbryan/Documents/My_Applications/PSmile/mpisearchFaceDetector.h \
+  /Users/chungbryan/Documents/My_Applications/PSmile/mpisearch.h \
+  /Users/chungbryan/Documents/My_Applications/PSmile/mpiimage.h \
+  /Users/chungbryan/Documents/My_Applications/PSmile/rimage.h \
+  /Users/chungbryan/Documents/My_Applications/PSmile/roi.h \
+  /Users/chungbryan/Documents/My_Applications/PSmile/square.h \
+  /Users/chungbryan/Documents/My_Applications/PSmile/faceboxlist.h \
+  /Users/chungbryan/Documents/My_Applications/PSmile/featuredata.h \
+  /Users/chungbryan/Documents/My_Applications/PSmile/faceobject.h \
+  /Users/chungbryan/Documents/My_Applications/PSmile/visualobject.h \
+  /Users/chungbryan/Documents/My_Applications/PSmile/eyeobject.h \
+  /Users/chungbryan/Documents/My_Applications/PSmile/beyesobject.h \
+  /Users/chungbryan/Documents/My_Applications/PSmile/interpolate.h

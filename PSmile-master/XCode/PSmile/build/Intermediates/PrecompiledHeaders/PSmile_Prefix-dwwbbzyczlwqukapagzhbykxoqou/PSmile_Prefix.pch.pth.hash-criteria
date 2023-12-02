@@ -1,0 +1,18 @@
+Contents of /Users/chungbryan/Documents/My_Applications/PSmile/PSmile_Prefix.pch
+4.1 (tags/Apple/clang-421.11.65) (based on LLVM 3.1svn)
+x86_64-apple-darwin12.2.0
+-x
+c++
+-arch
+x86_64
+-fmessage-length=0
+-fpascal-strings
+-Os
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+-fasm-blocks
+-mmacosx-version-min=10.8
+-g
+-fvisibility=hidden
+-fvisibility-inlines-hidden
+SDK_PRODUCT_BUILD_VERSION=12C37

@@ -1,0 +1,6 @@
+//
+// Prefix header for all source files of the 'PSmile' target in the 'PSmile' project.
+//
+
+
+#include <iostream>

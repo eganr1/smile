@@ -1,0 +1,22 @@
+﻿Build started 9/22/2012 8:57:02 AM.
+     1>Project "C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\mputil\mputil.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\mputil.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mputil\include" /I"C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vcWindows7.1SDK.pdb" /Gd /TP /errorReport:prompt src\cluster.cpp
+         cluster.cpp
+     1>C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mputil\include\cluster.h(46): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mputil\include\cluster.h(83): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mputil\include\cluster.h(181): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mputil\include\cluster.h(259): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\x64\Release\mputil.lib" /NOLOGO /LTCG x64\Release\cluster.obj
+         mputil.vcxproj -> C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\x64\Release\mputil.lib
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\mputil.unsuccessfulbuild".
+         Touching "x64\Release\mputil.lastbuildstate".
+     1>Done Building Project "C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\mputil\mputil.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.02

@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mpisearch", "mpisearch\mpisearch.vcxproj", "{B0FD37DE-7338-40EA-A3DC-DFA4119BA6F6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mputil", "mputil\mputil.vcxproj", "{7E4AB0AC-3269-473D-A741-EC3993864F2C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mpeyefinder", "mpeyefinder\mpeyefinder.vcxproj", "{4212941E-87AF-43C9-9FFF-F80176786FC1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mpblinkdetector", "mpblinkdetector\mpblinkdetector.vcxproj", "{EB32A28E-BA27-4F95-A277-9CC5AF46C908}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mpsmiledetector", "mpsmiledetector\mpsmiledetector.vcxproj", "{56675A34-AE01-4D0B-9843-CAAA9D600C92}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0FD37DE-7338-40EA-A3DC-DFA4119BA6F6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B0FD37DE-7338-40EA-A3DC-DFA4119BA6F6}.Debug|Win32.Build.0 = Debug|Win32
+		{B0FD37DE-7338-40EA-A3DC-DFA4119BA6F6}.Debug|x64.ActiveCfg = Debug|Win32
+		{B0FD37DE-7338-40EA-A3DC-DFA4119BA6F6}.Release|Win32.ActiveCfg = Release|Win32
+		{B0FD37DE-7338-40EA-A3DC-DFA4119BA6F6}.Release|Win32.Build.0 = Release|Win32
+		{B0FD37DE-7338-40EA-A3DC-DFA4119BA6F6}.Release|x64.ActiveCfg = Release|x64
+		{7E4AB0AC-3269-473D-A741-EC3993864F2C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7E4AB0AC-3269-473D-A741-EC3993864F2C}.Debug|Win32.Build.0 = Debug|Win32
+		{7E4AB0AC-3269-473D-A741-EC3993864F2C}.Debug|x64.ActiveCfg = Debug|Win32
+		{7E4AB0AC-3269-473D-A741-EC3993864F2C}.Release|Win32.ActiveCfg = Release|Win32
+		{7E4AB0AC-3269-473D-A741-EC3993864F2C}.Release|Win32.Build.0 = Release|Win32
+		{7E4AB0AC-3269-473D-A741-EC3993864F2C}.Release|x64.ActiveCfg = Release|x64
+		{4212941E-87AF-43C9-9FFF-F80176786FC1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4212941E-87AF-43C9-9FFF-F80176786FC1}.Debug|Win32.Build.0 = Debug|Win32
+		{4212941E-87AF-43C9-9FFF-F80176786FC1}.Debug|x64.ActiveCfg = Debug|Win32
+		{4212941E-87AF-43C9-9FFF-F80176786FC1}.Release|Win32.ActiveCfg = Release|Win32
+		{4212941E-87AF-43C9-9FFF-F80176786FC1}.Release|Win32.Build.0 = Release|Win32
+		{4212941E-87AF-43C9-9FFF-F80176786FC1}.Release|x64.ActiveCfg = Release|x64
+		{EB32A28E-BA27-4F95-A277-9CC5AF46C908}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EB32A28E-BA27-4F95-A277-9CC5AF46C908}.Debug|Win32.Build.0 = Debug|Win32
+		{EB32A28E-BA27-4F95-A277-9CC5AF46C908}.Debug|x64.ActiveCfg = Debug|x64
+		{EB32A28E-BA27-4F95-A277-9CC5AF46C908}.Debug|x64.Build.0 = Debug|x64
+		{EB32A28E-BA27-4F95-A277-9CC5AF46C908}.Release|Win32.ActiveCfg = Release|Win32
+		{EB32A28E-BA27-4F95-A277-9CC5AF46C908}.Release|Win32.Build.0 = Release|Win32
+		{EB32A28E-BA27-4F95-A277-9CC5AF46C908}.Release|x64.ActiveCfg = Release|x64
+		{EB32A28E-BA27-4F95-A277-9CC5AF46C908}.Release|x64.Build.0 = Release|x64
+		{56675A34-AE01-4D0B-9843-CAAA9D600C92}.Debug|Win32.ActiveCfg = Debug|Win32
+		{56675A34-AE01-4D0B-9843-CAAA9D600C92}.Debug|Win32.Build.0 = Debug|Win32
+		{56675A34-AE01-4D0B-9843-CAAA9D600C92}.Debug|x64.ActiveCfg = Debug|Win32
+		{56675A34-AE01-4D0B-9843-CAAA9D600C92}.Release|Win32.ActiveCfg = Release|Win32
+		{56675A34-AE01-4D0B-9843-CAAA9D600C92}.Release|Win32.Build.0 = Release|Win32
+		{56675A34-AE01-4D0B-9843-CAAA9D600C92}.Release|x64.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

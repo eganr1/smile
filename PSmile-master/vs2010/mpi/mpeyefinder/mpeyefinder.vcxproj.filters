@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\EyeWeightsFiles">
+      <UniqueIdentifier>{a0a6c311-d552-41da-8e6e-5f68ccd83c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\EyeWeightsFiles">
+      <UniqueIdentifier>{e165ed02-2f2b-4d8e-a31e-6fac0ea3f11b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\beyesobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\eye_finder_ROI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\eyefinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\eyefinderBinary.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\eyeobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\faceobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\visualobject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EyeWeightsFiles\config.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EyeWeightsFiles\lefteye_eye_dist_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EyeWeightsFiles\lefteye_eye_dist_face_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EyeWeightsFiles\lefteye_eye_only_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EyeWeightsFiles\lefteye_half_dist_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EyeWeightsFiles\lefteye_largest_2_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EyeWeightsFiles\lefteye_largest_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EyeWeightsFiles\lefteye_largest_face_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EyeWeightsFiles\lefteye_smallest_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EyeWeightsFiles\righteye_eye_dist_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EyeWeightsFiles\righteye_eye_dist_face_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EyeWeightsFiles\righteye_eye_only_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EyeWeightsFiles\righteye_half_dist_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EyeWeightsFiles\righteye_largest_2_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EyeWeightsFiles\righteye_largest_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EyeWeightsFiles\righteye_largest_face_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EyeWeightsFiles\righteye_smallest_eye_centered.h">
+      <Filter>Header Files\EyeWeightsFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\beyesobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eyefinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eyefinderBinary.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eyeobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\faceobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\visualobject.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EyeWeightsFiles\lefteye_eye_dist_eye_centered.cpp">
+      <Filter>Source Files\EyeWeightsFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EyeWeightsFiles\lefteye_eye_dist_face_centered.cpp">
+      <Filter>Source Files\EyeWeightsFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EyeWeightsFiles\lefteye_eye_only_eye_centered.cpp">
+      <Filter>Source Files\EyeWeightsFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EyeWeightsFiles\lefteye_half_dist_eye_centered.cpp">
+      <Filter>Source Files\EyeWeightsFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EyeWeightsFiles\lefteye_largest_2_eye_centered.cpp">
+      <Filter>Source Files\EyeWeightsFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EyeWeightsFiles\lefteye_largest_eye_centered.cpp">
+      <Filter>Source Files\EyeWeightsFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EyeWeightsFiles\lefteye_largest_face_centered.cpp">
+      <Filter>Source Files\EyeWeightsFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EyeWeightsFiles\lefteye_smallest_eye_centered.cpp">
+      <Filter>Source Files\EyeWeightsFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EyeWeightsFiles\righteye_eye_dist_eye_centered.cpp">
+      <Filter>Source Files\EyeWeightsFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EyeWeightsFiles\righteye_eye_dist_face_centered.cpp">
+      <Filter>Source Files\EyeWeightsFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EyeWeightsFiles\righteye_eye_only_eye_centered.cpp">
+      <Filter>Source Files\EyeWeightsFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EyeWeightsFiles\righteye_half_dist_eye_centered.cpp">
+      <Filter>Source Files\EyeWeightsFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EyeWeightsFiles\righteye_largest_2_eye_centered.cpp">
+      <Filter>Source Files\EyeWeightsFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EyeWeightsFiles\righteye_largest_eye_centered.cpp">
+      <Filter>Source Files\EyeWeightsFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EyeWeightsFiles\righteye_largest_face_centered.cpp">
+      <Filter>Source Files\EyeWeightsFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EyeWeightsFiles\righteye_smallest_eye_centered.cpp">
+      <Filter>Source Files\EyeWeightsFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

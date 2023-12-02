@@ -1,0 +1,570 @@
+TPSmile
+v7
+r0
+t325853604.955275
+cCheck dependencies
+cProcessPCH++ /var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-frjenrsvbpicnbanabrlntihvkfs/PSmile_Prefix.pch.gch PSmile_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-ajhiwhjsjhhsidbgxkzlhbmhiccv/PSmile_Prefix.pch.gch PSmile_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_2
+cCompileC build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/PSmile.o "/Users/bryan/Documents/My Applications/PSmile/PSmile.cp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/pSmile_PSmile.o "/Users/bryan/Documents/My Applications/PSmile/pSmile_PSmile.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/PSmile.build/Release/PSmile.build/Objects-normal/i386/PSmile.o "/Users/bryan/Documents/My Applications/PSmile/PSmile.cp" normal i386 c++ com.apple.compilers.gcc.4_2
+cLd "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.jnilib" normal x86_64
+cCompileC build/PSmile.build/Release/PSmile.build/Objects-normal/i386/pSmile_PSmile.o "/Users/bryan/Documents/My Applications/PSmile/pSmile_PSmile.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+cLd "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/libPSmile.jnilib" normal i386
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Accelerate.framework/Headers/Accelerate.h
+c000000004C23AF4D000000000000022A
+t1277407053
+s554
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Carbon.framework/Headers/Carbon.h
+c000000004C23BF2D00000000000005FF
+t1277411117
+s1535
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Headers/jni.h
+c000000004BC7BDCB0000000000010AF0
+t1271381451
+s68336
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/JavaVM
+c000000004CAA7405000000000000CB70
+t1286239237
+s52080
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/vecLib.framework/Headers/vBLAS.h
+c000000004C23AE530000000000002F66
+t1277406803
+s12134
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/assert.h
+c000000004BBD2CE90000000000000DCB
+t1270689001
+s3531
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
+c000000004A5C14A000000000000004F1
+t1247548576
+s1265
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/sys/time.h
+c000000004C2399480000000000001E17
+t1277401416
+s7703
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
+c000000004BBD2CE9000000000000178E
+t1270689001
+s6030
+
+N/Developer/mpi/include/beyesobject.h
+c000000004A2E150C000000000000088B
+t1244534028
+s2187
+
+N/Developer/mpi/include/eyefinder.h
+c000000004A2E150C00000000000016B2
+t1244534028
+s5810
+i"mpisearchFaceDetector.h"
+i<mpisearch/mpisearchFaceDetector.h>
+i"faceobject.h"
+i<vector>
+
+N/Developer/mpi/include/eyefinderBinary.h
+c000000004A2E150C0000000000000CB0
+t1244534028
+s3248
+i"eyefinder.h"
+
+N/Developer/mpi/include/eyeobject.h
+c000000004A2E150C00000000000009C2
+t1244534028
+s2498
+i"visualobject.h"
+i<algorithm>
+i<list>
+
+N/Developer/mpi/include/faceboxlist.h
+c000000004A2E151A0000000000001B9B
+t1244534042
+s7067
+i"square.h"
+i<algorithm>
+i<list>
+i<iostream>
+i<windows.h>
+
+N/Developer/mpi/include/faceobject.h
+c000000004A2E150C0000000000000CAF
+t1244534028
+s3247
+i"visualobject.h"
+i"eyeobject.h"
+i"beyesobject.h"
+i<algorithm>
+i<list>
+i<vector>
+
+N/Developer/mpi/include/featuredata.h
+c000000004A2E151A0000000000000A60
+t1244534042
+s2656
+
+N/Developer/mpi/include/interpolate.h
+c000000004A2E15040000000000006D51
+t1244534020
+s27985
+i<iostream>
+i<math.h>
+i<mpisearch.h>
+i<Magick++.h>
+i<time.h>
+
+N/Developer/mpi/include/mpiimage.h
+c000000004A2E151A0000000000005217
+t1244534042
+s21015
+i<fstream>
+i<vector>
+i"rimage.h"
+i"square.h"
+i"roi.h"
+i"faceboxlist.h"
+i<windows.h>
+
+N/Developer/mpi/include/mpisearch.h
+c000000004A2E151A0000000000009900
+t1244534042
+s39168
+i"mpiimage.h"
+i"featuredata.h"
+i"faceboxlist.h"
+i<list>
+i<iostream>
+i<math.h>
+
+N/Developer/mpi/include/mpisearchFaceDetector.h
+c000000004A2E151A00000000000008E0
+t1244534042
+s2272
+i"mpisearch.h"
+
+N/Developer/mpi/include/rimage.h
+c000000004A2E151A0000000000002966
+t1244534042
+s10598
+i"roi.h"
+i<iostream>
+i<assert.h>
+
+N/Developer/mpi/include/roi.h
+c000000004A2E151A00000000000008EE
+t1244534042
+s2286
+i<vector>
+i<iostream>
+
+N/Developer/mpi/include/smile.h
+c000000004A2E15040000000000002437
+t1244534020
+s9271
+i<eyefinderBinary.h>
+i"interpolate.h"
+i<Carbon/Carbon.h>
+i<Accelerate/Accelerate.h>
+i</System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/Headers/Geometry.h>
+i<Magick++.h>
+i<vecLib/vBLAS.h>
+i<sys/time.h>
+
+N/Developer/mpi/include/square.h
+c000000004A2E151A0000000000000F60
+t1244534042
+s3936
+
+N/Developer/mpi/include/visualobject.h
+c000000004A2E150C0000000000000D68
+t1244534028
+s3432
+i<algorithm>
+i<list>
+i"square.h"
+i<mpisearch/square.h>
+
+N/Developer/mpi/lib/libmpi.a
+c000000004DBBE78C000000000166E000
+t1304160140
+s23519232
+
+N/System/Library/Frameworks/Accelerate.framework/Versions/A/Frameworks/vImage.framework/Versions/A/Headers/Geometry.h
+c000000004C2398F50000000000007790
+t1277401333
+s30608
+
+N/Users/bryan/Documents/My Applications/PSmile/PSmile.cp
+c000000004DBBDCFA0000000000000276
+t1304157434
+s630
+i<iostream>
+i"PSmile.h"
+
+N/Users/bryan/Documents/My Applications/PSmile/PSmile.h
+c000000004DBBDC3A00000000000001C8
+t1304157242
+s456
+i"pSmile_PSmile.h"
+i"smile.h"
+i"rimage.h"
+
+N/Users/bryan/Documents/My Applications/PSmile/PSmilePriv.h
+c000000004DBBD9D7000000000000013D
+t1304156631
+s317
+
+N/Users/bryan/Documents/My Applications/PSmile/PSmile_Prefix.pch
+c000000004DBBD9D70000000000000072
+t1304156631
+s114
+i<iostream>
+
+N/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/PSmile.o
+t1304160804
+s168504
+
+N/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/libPSmile.LinkFileList
+c000000004DBBEA2200000000000000ED
+t1304160802
+s237
+
+N/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/libPSmile.dylib
+t1304156682
+s10120
+
+N/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/libPSmile.jnilib
+t2
+s0
+
+N/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/pSmile_PSmile.o
+t1304160804
+s109180
+
+N/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/ppc/PSmile.o
+t1304156682
+s67616
+
+N/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/ppc/libPSmile.LinkFileList
+c000000004DBBDA070000000000000072
+t1304156679
+s114
+
+N/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/ppc/libPSmile.dylib
+t1304156682
+s9852
+
+N/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/PSmile.o
+t1304160804
+s170336
+
+N/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.LinkFileList
+c000000004DBBEA2200000000000000F1
+t1304160802
+s241
+
+N/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.dylib
+t1304156682
+s10296
+
+N/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.jnilib
+t2
+s0
+
+N/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/pSmile_PSmile.o
+t1304160804
+s111384
+
+N/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.dylib
+t1304156682
+s38524
+
+N/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.dylib.dSYM
+t1304156682
+s102
+
+N/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.jnilib
+t2
+s0
+
+N/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.jnilib.dSYM
+t2
+s0
+
+N/Users/bryan/Documents/My Applications/PSmile/pSmile_PSmile.cpp
+c000000004DBBDE00000000000000034F
+t1304157696
+s847
+i"PSmile.h"
+i<iostream>
+
+N/Users/bryan/Documents/My Applications/PSmile/pSmile_PSmile.h
+c000000004DAFE7940000000000000269
+t1303373716
+s617
+i<jni.h>
+
+N/var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-ajhiwhjsjhhsidbgxkzlhbmhiccv/PSmile_Prefix.pch.gch
+t1304160804
+s19837488
+
+N/var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-cgezngxwsojrxhfftdjegiszzywz/PSmile_Prefix.pch.gch
+t1304156682
+s19440112
+
+N/var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-frjenrsvbpicnbanabrlntihvkfs/PSmile_Prefix.pch.gch
+t1304160804
+s19849776
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies325853602#325853602#0(0"0(0#1#0"8606890080#0"0#
+
+CCompileC build/PSmile.build/Release/PSmile.build/Objects-normal/i386/PSmile.o "/Users/bryan/Documents/My Applications/PSmile/PSmile.cp" normal i386 c++ com.apple.compilers.gcc.4_2
+s325853604.532136
+e325853604.911135
+r1
+xCompileC
+xbuild/PSmile.build/Release/PSmile.build/Objects-normal/i386/PSmile.o
+x/Users/bryan/Documents/My Applications/PSmile/PSmile.cp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/bryan/Documents/My Applications/PSmile/PSmile.cp: In member function 'float CPSmile::getSmile(float*, int, int)':
+o/Users/bryan/Documents/My Applications/PSmile/PSmile.cp:24: warning: unused variable 'n'
+lSLF07#2@63"Compile /Users/bryan/Documents/My Applications/PSmile/PSmile.cp325853604#325853604#0(210"/Users/bryan/Documents/My Applications/PSmile/PSmile.cp: In member function 'float CPSmile::getSmile(float*, int, int)':/Users/bryan/Documents/My Applications/PSmile/PSmile.cp:24: warning: unused variable 'n'1(22@19"Unused variable 'n'325853604#121#89#0(6@55"/Users/bryan/Documents/My Applications/PSmile/PSmile.cp325850234#24#0#24#0#19"unused variable '*'0(0#0#55"/Users/bryan/Documents/My Applications/PSmile/PSmile.cp8606596736#1321"    cd "/Users/bryan/Documents/My Applications/PSmile"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/libPSmile.hmap" "-F/Users/bryan/Documents/My Applications/PSmile/build/Release" "-I/Users/bryan/Documents/My Applications/PSmile/build/Release/include" -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Developer/mpi/include -I/Developer/mpi/include/EyeWeightsFiles "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/DerivedSources/i386" "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/DerivedSources" -include /var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-ajhiwhjsjhhsidbgxkzlhbmhiccv/PSmile_Prefix.pch -c "/Users/bryan/Documents/My Applications/PSmile/PSmile.cp" -o "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/PSmile.o"0#
+
+CCompileC build/PSmile.build/Release/PSmile.build/Objects-normal/i386/pSmile_PSmile.o "/Users/bryan/Documents/My Applications/PSmile/pSmile_PSmile.cpp" normal i386 c++ com.apple.compilers.gcc.4_2
+s325853604.641928
+e325853604.935746
+r1
+xCompileC
+xbuild/PSmile.build/Release/PSmile.build/Objects-normal/i386/pSmile_PSmile.o
+x/Users/bryan/Documents/My Applications/PSmile/pSmile_PSmile.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/bryan/Documents/My Applications/PSmile/pSmile_PSmile.cpp325853604#325853604#0(0"0(0#0#63"/Users/bryan/Documents/My Applications/PSmile/pSmile_PSmile.cpp8607509248#1336"    cd "/Users/bryan/Documents/My Applications/PSmile"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/libPSmile.hmap" "-F/Users/bryan/Documents/My Applications/PSmile/build/Release" "-I/Users/bryan/Documents/My Applications/PSmile/build/Release/include" -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Developer/mpi/include -I/Developer/mpi/include/EyeWeightsFiles "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/DerivedSources/i386" "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/DerivedSources" -include /var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-ajhiwhjsjhhsidbgxkzlhbmhiccv/PSmile_Prefix.pch -c "/Users/bryan/Documents/My Applications/PSmile/pSmile_PSmile.cpp" -o "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/pSmile_PSmile.o"0#
+
+CCompileC build/PSmile.build/Release/PSmile.build/Objects-normal/ppc/PSmile.o "/Users/bryan/Documents/My Applications/PSmile/PSmile.cp" normal ppc c++ com.apple.compilers.gcc.4_2
+s325849482.282544
+e325849482.367831
+r1
+xCompileC
+xbuild/PSmile.build/Release/PSmile.build/Objects-normal/ppc/PSmile.o
+x/Users/bryan/Documents/My Applications/PSmile/PSmile.cp
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@63"Compile /Users/bryan/Documents/My Applications/PSmile/PSmile.cp325849482#325849482#0(0"0(0#0#55"/Users/bryan/Documents/My Applications/PSmile/PSmile.cp7877728337663127552#1575"    cd "/Users/bryan/Documents/My Applications/PSmile"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/libPSmile-generated-files.hmap" "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/libPSmile-own-target-headers.hmap" "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/libPSmile-all-target-headers.hmap" -iquote "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/libPSmile-project-headers.hmap" "-F/Users/bryan/Documents/My Applications/PSmile/build/Release" "-I/Users/bryan/Documents/My Applications/PSmile/build/Release/include" "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/DerivedSources/ppc" "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/DerivedSources" -include /var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-cgezngxwsojrxhfftdjegiszzywz/PSmile_Prefix.pch -c "/Users/bryan/Documents/My Applications/PSmile/PSmile.cp" -o "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/ppc/PSmile.o"0#
+
+CCompileC build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/PSmile.o "/Users/bryan/Documents/My Applications/PSmile/PSmile.cp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s325853604.190055
+e325853604.620722
+r1
+xCompileC
+xbuild/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/PSmile.o
+x/Users/bryan/Documents/My Applications/PSmile/PSmile.cp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/bryan/Documents/My Applications/PSmile/PSmile.cp: In member function 'float CPSmile::getSmile(float*, int, int)':
+o/Users/bryan/Documents/My Applications/PSmile/PSmile.cp:24: warning: unused variable 'n'
+lSLF07#2@63"Compile /Users/bryan/Documents/My Applications/PSmile/PSmile.cp325853604#325853604#0(210"/Users/bryan/Documents/My Applications/PSmile/PSmile.cp: In member function 'float CPSmile::getSmile(float*, int, int)':/Users/bryan/Documents/My Applications/PSmile/PSmile.cp:24: warning: unused variable 'n'1(22@19"Unused variable 'n'325853604#121#89#0(6@55"/Users/bryan/Documents/My Applications/PSmile/PSmile.cp325850234#24#0#24#0#19"unused variable '*'0(0#0#55"/Users/bryan/Documents/My Applications/PSmile/PSmile.cp8606963904#1327"    cd "/Users/bryan/Documents/My Applications/PSmile"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/libPSmile.hmap" "-F/Users/bryan/Documents/My Applications/PSmile/build/Release" "-I/Users/bryan/Documents/My Applications/PSmile/build/Release/include" -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Developer/mpi/include -I/Developer/mpi/include/EyeWeightsFiles "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/DerivedSources/x86_64" "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/DerivedSources" -include /var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-frjenrsvbpicnbanabrlntihvkfs/PSmile_Prefix.pch -c "/Users/bryan/Documents/My Applications/PSmile/PSmile.cp" -o "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/PSmile.o"0#
+
+CCompileC build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/pSmile_PSmile.o "/Users/bryan/Documents/My Applications/PSmile/pSmile_PSmile.cpp" normal x86_64 c++ com.apple.compilers.gcc.4_2
+s325853604.191539
+e325853604.532003
+r1
+xCompileC
+xbuild/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/pSmile_PSmile.o
+x/Users/bryan/Documents/My Applications/PSmile/pSmile_PSmile.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/bryan/Documents/My Applications/PSmile/pSmile_PSmile.cpp325853604#325853604#0(0"0(0#0#63"/Users/bryan/Documents/My Applications/PSmile/pSmile_PSmile.cpp8606770272#1342"    cd "/Users/bryan/Documents/My Applications/PSmile"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/libPSmile.hmap" "-F/Users/bryan/Documents/My Applications/PSmile/build/Release" "-I/Users/bryan/Documents/My Applications/PSmile/build/Release/include" -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Developer/mpi/include -I/Developer/mpi/include/EyeWeightsFiles "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/DerivedSources/x86_64" "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/DerivedSources" -include /var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-frjenrsvbpicnbanabrlntihvkfs/PSmile_Prefix.pch -c "/Users/bryan/Documents/My Applications/PSmile/pSmile_PSmile.cpp" -o "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/pSmile_PSmile.o"0#
+
+CCreateUniversalBinary "/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.dylib" normal "x86_64 i386 ppc"
+s325849482.385301
+e325849482.389294
+r1
+xCreateUniversalBinary
+x/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.dylib
+xnormal
+xx86_64 i386 ppc
+lSLF07#2@76"CreateUniversalBinary build/Release/libPSmile.dylib normal "x86_64 i386 ppc"325849482#325849482#0(0"0(0#0#61"/Users/bryan/Documents/My Applications/PSmile/x86_64 i386 ppc8603157856#540"    cd "/Users/bryan/Documents/My Applications/PSmile"    /usr/bin/lipo -create "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.dylib" "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/libPSmile.dylib" "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/ppc/libPSmile.dylib" -output "/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.dylib"0#
+
+CCreateUniversalBinary "/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.dylib" normal "x86_64 i386"
+r0
+
+CCreateUniversalBinary "/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.jnilib" normal "x86_64 i386"
+s325849719.086390
+e325849719.089474
+r1
+xCreateUniversalBinary
+x/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.jnilib
+xnormal
+xx86_64 i386
+lSLF07#2@73"CreateUniversalBinary build/Release/libPSmile.jnilib normal "x86_64 i386"325849719#325849719#0(0"0(0#0#57"/Users/bryan/Documents/My Applications/PSmile/x86_64 i3868608060576#420"    cd "/Users/bryan/Documents/My Applications/PSmile"    /usr/bin/lipo -create "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.jnilib" "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/libPSmile.jnilib" -output "/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.jnilib"0#
+
+CGenerateDSYMFile "/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.dylib.dSYM" "/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.dylib"
+s325849482.389390
+e325849482.423440
+r1
+xGenerateDSYMFile
+x/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.dylib.dSYM
+x/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.dylib
+lSLF07#2@81"GenerateDSYMFile build/Release/libPSmile.dylib.dSYM build/Release/libPSmile.dylib325849482#325849482#0(0"0(0#0#75"/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.dylib8599305024#251"    cd "/Users/bryan/Documents/My Applications/PSmile"    /Developer/usr/bin/dsymutil "/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.dylib" -o "/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.dylib.dSYM"0#
+
+CGenerateDSYMFile "/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.jnilib.dSYM" "/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.jnilib"
+s325849719.089564
+e325849719.106587
+r1
+xGenerateDSYMFile
+x/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.jnilib.dSYM
+x/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.jnilib
+lSLF07#2@83"GenerateDSYMFile build/Release/libPSmile.jnilib.dSYM build/Release/libPSmile.jnilib325849719#325849719#0(0"0(0#0#76"/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.jnilib8607700256#253"    cd "/Users/bryan/Documents/My Applications/PSmile"    /Developer/usr/bin/dsymutil "/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.jnilib" -o "/Users/bryan/Documents/My Applications/PSmile/build/Release/libPSmile.jnilib.dSYM"0#
+
+CLd "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/libPSmile.dylib" normal i386
+s325849482.242882
+e325849482.283591
+r1
+xLd
+x/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/libPSmile.dylib
+xnormal
+xi386
+old: warning: directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -L not found
+old: warning: directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -F not found
+lSLF07#2@126"Link /Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/libPSmile.dylib325849482#325849482#0(216"ld: warning: directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -L not foundld: warning: directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -F not found2(22@94"Directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -L not found325849482#0#108#0(6@0"325849482#0#0#0#0#0"0(22@94"Directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -F not found325849482#108#108#0(6@0"325849482#0#0#0#0#0"0(0#0#0"8603794656#735"    cd "/Users/bryan/Documents/My Applications/PSmile"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -dynamiclib -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/bryan/Documents/My Applications/PSmile/build/Release" "-F/Users/bryan/Documents/My Applications/PSmile/build/Release" -filelist "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/libPSmile.LinkFileList" -install_name /usr/local/lib/libPSmile.dylib -mmacosx-version-min=10.6 -framework JavaVM -single_module -compatibility_version 1 -current_version 1 -o "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/libPSmile.dylib"0#
+
+CLd "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/libPSmile.jnilib" normal i386
+s325853604.935839
+e325853604.955200
+r0
+xLd
+x/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/libPSmile.jnilib
+xnormal
+xi386
+oUndefined symbols:
+o  "MPSmile::~MPSmile()", referenced from:
+o      CPSmile::getSmile(float*, int, int)in PSmile.o
+o      CPSmile::getSmile(float*, int, int)in PSmile.o
+o  "VisualObject::~VisualObject()", referenced from:
+o      CPSmile::getSmile(float*, int, int)in PSmile.o
+o      CPSmile::getSmile(float*, int, int)in PSmile.o
+o  "MPSmile::findSmiles(RImage<float> const&, VisualObject&, float, combine_mode)", referenced from:
+o      CPSmile::getSmile(float*, int, int)in PSmile.o
+o  "MPSmile::MPSmile()", referenced from:
+o      CPSmile::getSmile(float*, int, int)in PSmile.o
+o  "VisualObject::VisualObject()", referenced from:
+o      CPSmile::getSmile(float*, int, int)in PSmile.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@127"Link /Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/libPSmile.jnilib325853604#325853604#0(736"Undefined symbols:  "MPSmile::~MPSmile()", referenced from:      CPSmile::getSmile(float*, int, int)in PSmile.o      CPSmile::getSmile(float*, int, int)in PSmile.o  "VisualObject::~VisualObject()", referenced from:      CPSmile::getSmile(float*, int, int)in PSmile.o      CPSmile::getSmile(float*, int, int)in PSmile.o  "MPSmile::findSmiles(RImage<float> const&, VisualObject&, float, combine_mode)", referenced from:      CPSmile::getSmile(float*, int, int)in PSmile.o  "MPSmile::MPSmile()", referenced from:      CPSmile::getSmile(float*, int, int)in PSmile.o  "VisualObject::VisualObject()", referenced from:      CPSmile::getSmile(float*, int, int)in PSmile.old: symbol(s) not foundcollect2: ld returned 1 exit status14(4@39""MPSmile::~MPSmile()", referenced from:325853604#19#42#0(6@0"325853604#0#0#0#0#0"0(13@46"CPSmile::getSmile(float*, int, int)in PSmile.o325853604#61#53#0(6@0"325853604#0#0#0#0#0"0(13@46"CPSmile::getSmile(float*, int, int)in PSmile.o325853604#114#53#0(6@0"325853604#0#0#0#0#0"0(4@49""VisualObject::~VisualObject()", referenced from:325853604#167#52#0(6@0"325853604#0#0#0#0#0"0(13@46"CPSmile::getSmile(float*, int, int)in PSmile.o325853604#219#53#0(6@0"325853604#0#0#0#0#0"0(13@46"CPSmile::getSmile(float*, int, int)in PSmile.o325853604#272#53#0(6@0"325853604#0#0#0#0#0"0(4@97""MPSmile::findSmiles(RImage<float> const&, VisualObject&, float, combine_mode)", referenced from:325853604#325#100#0(6@0"325853604#0#0#0#0#0"0(13@46"CPSmile::getSmile(float*, int, int)in PSmile.o325853604#425#53#0(6@0"325853604#0#0#0#0#0"0(4@38""MPSmile::MPSmile()", referenced from:325853604#478#41#0(6@0"325853604#0#0#0#0#0"0(13@46"CPSmile::getSmile(float*, int, int)in PSmile.o325853604#519#53#0(6@0"325853604#0#0#0#0#0"0(4@48""VisualObject::VisualObject()", referenced from:325853604#572#51#0(6@0"325853604#0#0#0#0#0"0(13@46"CPSmile::getSmile(float*, int, int)in PSmile.o325853604#623#53#0(6@0"325853604#0#0#0#0#0"0(13@19"Symbol(s) not found325853604#676#24#0(6@0"325853604#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status325853604#700#36#0(6@0"325853604#0#0#0#0#0"0(0#0#0"8606239904#785"    cd "/Users/bryan/Documents/My Applications/PSmile"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -dynamiclib -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/bryan/Documents/My Applications/PSmile/build/Release" -L/Developer/mpi/lib -L/Developer/mpi/lib "-F/Users/bryan/Documents/My Applications/PSmile/build/Release" -filelist "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/libPSmile.LinkFileList" -install_name /usr/local/lib/libPSmile.jnilib -mmacosx-version-min=10.6 -framework JavaVM -lmpi -single_module -compatibility_version 1 -current_version 1 -o "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/i386/libPSmile.jnilib"1#
+
+CLd "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/ppc/libPSmile.dylib" normal ppc
+s325849482.367921
+e325849482.385217
+r1
+xLd
+x/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/ppc/libPSmile.dylib
+xnormal
+xppc
+old: warning: directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -L not found
+old: warning: directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -F not found
+lSLF07#2@125"Link /Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/ppc/libPSmile.dylib325849482#325849482#0(216"ld: warning: directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -L not foundld: warning: directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -F not found2(22@94"Directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -L not found325849482#0#108#0(6@0"325849482#0#0#0#0#0"0(22@94"Directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -F not found325849482#108#108#0(6@0"325849482#0#0#0#0#0"0(0#0#0"8603829952#732"    cd "/Users/bryan/Documents/My Applications/PSmile"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch ppc -dynamiclib -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/bryan/Documents/My Applications/PSmile/build/Release" "-F/Users/bryan/Documents/My Applications/PSmile/build/Release" -filelist "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/ppc/libPSmile.LinkFileList" -install_name /usr/local/lib/libPSmile.dylib -mmacosx-version-min=10.6 -framework JavaVM -single_module -compatibility_version 1 -current_version 1 -o "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/ppc/libPSmile.dylib"0#
+
+CLd "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.dylib" normal x86_64
+s325849482.241902
+e325849482.282278
+r1
+xLd
+x/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.dylib
+xnormal
+xx86_64
+old: warning: directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -L not found
+old: warning: directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -F not found
+lSLF07#2@128"Link /Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.dylib325849482#325849482#0(216"ld: warning: directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -L not foundld: warning: directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -F not found2(22@94"Directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -L not found325849482#0#108#0(6@0"325849482#0#0#0#0#0"0(22@94"Directory '/Users/bryan/Documents/My Applications/PSmile/build/Release' following -F not found325849482#108#108#0(6@0"325849482#0#0#0#0#0"0(0#0#0"8606143936#741"    cd "/Users/bryan/Documents/My Applications/PSmile"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -dynamiclib -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/bryan/Documents/My Applications/PSmile/build/Release" "-F/Users/bryan/Documents/My Applications/PSmile/build/Release" -filelist "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.LinkFileList" -install_name /usr/local/lib/libPSmile.dylib -mmacosx-version-min=10.6 -framework JavaVM -single_module -compatibility_version 1 -current_version 1 -o "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.dylib"0#
+
+CLd "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.jnilib" normal x86_64
+s325853604.620818
+e325853604.641829
+r0
+xLd
+x/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.jnilib
+xnormal
+xx86_64
+oUndefined symbols:
+o  "MPSmile::~MPSmile()", referenced from:
+o      CPSmile::getSmile(float*, int, int)in PSmile.o
+o      CPSmile::getSmile(float*, int, int)in PSmile.o
+o  "VisualObject::~VisualObject()", referenced from:
+o      CPSmile::getSmile(float*, int, int)in PSmile.o
+o      CPSmile::getSmile(float*, int, int)in PSmile.o
+o  "MPSmile::findSmiles(RImage<float> const&, VisualObject&, float, combine_mode)", referenced from:
+o      CPSmile::getSmile(float*, int, int)in PSmile.o
+o  "MPSmile::MPSmile()", referenced from:
+o      CPSmile::getSmile(float*, int, int)in PSmile.o
+o  "VisualObject::VisualObject()", referenced from:
+o      CPSmile::getSmile(float*, int, int)in PSmile.o
+old: symbol(s) not found
+ocollect2: ld returned 1 exit status
+lSLF07#2@129"Link /Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.jnilib325853604#325853604#0(736"Undefined symbols:  "MPSmile::~MPSmile()", referenced from:      CPSmile::getSmile(float*, int, int)in PSmile.o      CPSmile::getSmile(float*, int, int)in PSmile.o  "VisualObject::~VisualObject()", referenced from:      CPSmile::getSmile(float*, int, int)in PSmile.o      CPSmile::getSmile(float*, int, int)in PSmile.o  "MPSmile::findSmiles(RImage<float> const&, VisualObject&, float, combine_mode)", referenced from:      CPSmile::getSmile(float*, int, int)in PSmile.o  "MPSmile::MPSmile()", referenced from:      CPSmile::getSmile(float*, int, int)in PSmile.o  "VisualObject::VisualObject()", referenced from:      CPSmile::getSmile(float*, int, int)in PSmile.old: symbol(s) not foundcollect2: ld returned 1 exit status14(4@39""MPSmile::~MPSmile()", referenced from:325853604#19#42#0(6@0"325853604#0#0#0#0#0"0(13@46"CPSmile::getSmile(float*, int, int)in PSmile.o325853604#61#53#0(6@0"325853604#0#0#0#0#0"0(13@46"CPSmile::getSmile(float*, int, int)in PSmile.o325853604#114#53#0(6@0"325853604#0#0#0#0#0"0(4@49""VisualObject::~VisualObject()", referenced from:325853604#167#52#0(6@0"325853604#0#0#0#0#0"0(13@46"CPSmile::getSmile(float*, int, int)in PSmile.o325853604#219#53#0(6@0"325853604#0#0#0#0#0"0(13@46"CPSmile::getSmile(float*, int, int)in PSmile.o325853604#272#53#0(6@0"325853604#0#0#0#0#0"0(4@97""MPSmile::findSmiles(RImage<float> const&, VisualObject&, float, combine_mode)", referenced from:325853604#325#100#0(6@0"325853604#0#0#0#0#0"0(13@46"CPSmile::getSmile(float*, int, int)in PSmile.o325853604#425#53#0(6@0"325853604#0#0#0#0#0"0(4@38""MPSmile::MPSmile()", referenced from:325853604#478#41#0(6@0"325853604#0#0#0#0#0"0(13@46"CPSmile::getSmile(float*, int, int)in PSmile.o325853604#519#53#0(6@0"325853604#0#0#0#0#0"0(4@48""VisualObject::VisualObject()", referenced from:325853604#572#51#0(6@0"325853604#0#0#0#0#0"0(13@46"CPSmile::getSmile(float*, int, int)in PSmile.o325853604#623#53#0(6@0"325853604#0#0#0#0#0"0(13@19"Symbol(s) not found325853604#676#24#0(6@0"325853604#0#0#0#0#0"0(13@35"Collect2: ld returned 1 exit status325853604#700#36#0(6@0"325853604#0#0#0#0#0"0(0#0#0"8605507776#791"    cd "/Users/bryan/Documents/My Applications/PSmile"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -dynamiclib -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/bryan/Documents/My Applications/PSmile/build/Release" -L/Developer/mpi/lib -L/Developer/mpi/lib "-F/Users/bryan/Documents/My Applications/PSmile/build/Release" -filelist "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.LinkFileList" -install_name /usr/local/lib/libPSmile.jnilib -mmacosx-version-min=10.6 -framework JavaVM -lmpi -single_module -compatibility_version 1 -current_version 1 -o "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/Objects-normal/x86_64/libPSmile.jnilib"1#
+
+CProcessPCH++ /var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-ajhiwhjsjhhsidbgxkzlhbmhiccv/PSmile_Prefix.pch.gch PSmile_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_2
+s325853602.850364
+e325853604.189913
+r1
+xProcessPCH++
+x/var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-ajhiwhjsjhhsidbgxkzlhbmhiccv/PSmile_Prefix.pch.gch
+xPSmile_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile PSmile_Prefix.pch325853602#325853604#0(0"0(0#0#63"/Users/bryan/Documents/My Applications/PSmile/PSmile_Prefix.pch8605986720#1214"    cd "/Users/bryan/Documents/My Applications/PSmile"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/libPSmile.hmap" "-F/Users/bryan/Documents/My Applications/PSmile/build/Release" "-I/Users/bryan/Documents/My Applications/PSmile/build/Release/include" -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Developer/mpi/include -I/Developer/mpi/include/EyeWeightsFiles "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/DerivedSources/i386" "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/DerivedSources" -c "/Users/bryan/Documents/My Applications/PSmile/PSmile_Prefix.pch" -o /var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-ajhiwhjsjhhsidbgxkzlhbmhiccv/PSmile_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-cgezngxwsojrxhfftdjegiszzywz/PSmile_Prefix.pch.gch PSmile_Prefix.pch normal ppc c++ com.apple.compilers.gcc.4_2
+s325849481.025335
+e325849482.129678
+r1
+xProcessPCH++
+x/var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-cgezngxwsojrxhfftdjegiszzywz/PSmile_Prefix.pch.gch
+xPSmile_Prefix.pch
+xnormal
+xppc
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile PSmile_Prefix.pch325849481#325849482#0(0"0(0#0#63"/Users/bryan/Documents/My Applications/PSmile/PSmile_Prefix.pch8601565920#1469"    cd "/Users/bryan/Documents/My Applications/PSmile"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch ppc -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mtune=G5 -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/libPSmile-generated-files.hmap" "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/libPSmile-own-target-headers.hmap" "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/libPSmile-all-target-headers.hmap" -iquote "/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/libPSmile-project-headers.hmap" "-F/Users/bryan/Documents/My Applications/PSmile/build/Release" "-I/Users/bryan/Documents/My Applications/PSmile/build/Release/include" "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/DerivedSources/ppc" "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/DerivedSources" -c "/Users/bryan/Documents/My Applications/PSmile/PSmile_Prefix.pch" -o /var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-cgezngxwsojrxhfftdjegiszzywz/PSmile_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-frjenrsvbpicnbanabrlntihvkfs/PSmile_Prefix.pch.gch PSmile_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+s325853602.849548
+e325853604.127502
+r1
+xProcessPCH++
+x/var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-frjenrsvbpicnbanabrlntihvkfs/PSmile_Prefix.pch.gch
+xPSmile_Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile PSmile_Prefix.pch325853602#325853604#0(0"0(0#0#63"/Users/bryan/Documents/My Applications/PSmile/PSmile_Prefix.pch8606107264#1218"    cd "/Users/bryan/Documents/My Applications/PSmile"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/libPSmile.hmap" "-F/Users/bryan/Documents/My Applications/PSmile/build/Release" "-I/Users/bryan/Documents/My Applications/PSmile/build/Release/include" -I/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/JavaVM.framework/Headers -I/Developer/mpi/include -I/Developer/mpi/include/EyeWeightsFiles "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/DerivedSources/x86_64" "-I/Users/bryan/Documents/My Applications/PSmile/build/PSmile.build/Release/PSmile.build/DerivedSources" -c "/Users/bryan/Documents/My Applications/PSmile/PSmile_Prefix.pch" -o /var/folders/cj/cjk0Je8hEze+uy4fM-BMFU+++TM/-Caches-/com.apple.Xcode.502/SharedPrecompiledHeaders/PSmile_Prefix-frjenrsvbpicnbanabrlntihvkfs/PSmile_Prefix.pch.gch0#
+

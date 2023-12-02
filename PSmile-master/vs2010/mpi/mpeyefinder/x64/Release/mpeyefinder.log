@@ -1,0 +1,975 @@
+﻿Build started 9/22/2012 8:56:28 AM.
+     1>Project "C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\mpeyefinder\mpeyefinder.vcxproj" on node 2 (rebuild target(s)).
+     1>InitializeBuildStatus:
+         Creating "x64\Release\mpeyefinder.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpeyefinder\include" /I"C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include" /I"C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpeyefinder\include\EyeWeightsFiles" /Zi /nologo /W3 /WX- /O2 /Oi /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vcWindows7.1SDK.pdb" /Gd /TP /errorReport:prompt src\beyesobject.cpp src\eyefinder.cpp src\eyefinderBinary.cpp src\eyeobject.cpp src\EyeWeightsFiles\lefteye_eye_dist_eye_centered.cpp src\EyeWeightsFiles\lefteye_eye_dist_face_centered.cpp src\EyeWeightsFiles\lefteye_eye_only_eye_centered.cpp src\EyeWeightsFiles\lefteye_half_dist_eye_centered.cpp src\EyeWeightsFiles\lefteye_largest_2_eye_centered.cpp src\EyeWeightsFiles\lefteye_largest_eye_centered.cpp src\EyeWeightsFiles\lefteye_largest_face_centered.cpp src\EyeWeightsFiles\lefteye_smallest_eye_centered.cpp src\EyeWeightsFiles\righteye_eye_dist_eye_centered.cpp src\EyeWeightsFiles\righteye_eye_dist_face_centered.cpp src\EyeWeightsFiles\righteye_eye_only_eye_centered.cpp src\EyeWeightsFiles\righteye_half_dist_eye_centered.cpp src\EyeWeightsFiles\righteye_largest_2_eye_centered.cpp src\EyeWeightsFiles\righteye_largest_eye_centered.cpp src\EyeWeightsFiles\righteye_largest_face_centered.cpp src\EyeWeightsFiles\righteye_smallest_eye_centered.cpp src\faceobject.cpp src\visualobject.cpp
+         beyesobject.cpp
+         eyefinder.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\eyefinder.cpp(155): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\eyefinder.cpp(156): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\eyefinder.cpp(163): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\eyefinder.cpp(164): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\eyefinder.cpp(312): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>src\eyefinder.cpp(312): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>src\eyefinder.cpp(334): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>src\eyefinder.cpp(334): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>src\eyefinder.cpp(339): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>src\eyefinder.cpp(339): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>src\eyefinder.cpp(346): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>src\eyefinder.cpp(346): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>src\eyefinder.cpp(358): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>src\eyefinder.cpp(358): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>src\eyefinder.cpp(365): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>src\eyefinder.cpp(365): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>src\eyefinder.cpp(371): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>src\eyefinder.cpp(371): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(416): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(408) : while compiling class template member function 'ROI MPIImagePyramid<T>::SetROI(ROI &)'
+                 with
+                 [
+                     T=float
+                 ]
+                 src\eyefinder.cpp(174) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(456): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(451) : while compiling class template member function 'int MPIImagePyramid<T>::getClosestScale(float)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\faceboxlist.h(54): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\faceboxlist.h(54) : while compiling class template member function 'int ObjectList<T>::size(void) const'
+                 with
+                 [
+                     T=int
+                 ]
+                 src\eyefinder.cpp(223) : see reference to class template instantiation 'ObjectList<T>' being compiled
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(367): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(337) : while compiling class template member function 'double MPISearchObjectDetector<T>::classifyWindow(MPIScaledImage<T>::const_iterator &,FeatureData &,CornerCache<T> **&,T *&,Corner [],CornerCache<T> [],T,float,T,double *&)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(451): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(466): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(468): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(473): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(475): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\faceboxlist.h(107): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\faceboxlist.h(94) : while compiling class template member function 'void ObjectList<T>::simplify(float)'
+                 with
+                 [
+                     T=int
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\faceboxlist.h(108): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\faceboxlist.h(109): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\faceboxlist.h(110): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\faceboxlist.h(112): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(649) : while compiling class template member function 'MPISearchStream<T>::MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(160) : see reference to class template instantiation 'MPISearchStream<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         eyefinderBinary.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         eyeobject.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+         lefteye_eye_dist_eye_centered.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         lefteye_eye_dist_face_centered.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         lefteye_eye_only_eye_centered.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         lefteye_half_dist_eye_centered.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         lefteye_largest_2_eye_centered.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         lefteye_largest_eye_centered.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         lefteye_largest_face_centered.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         lefteye_smallest_eye_centered.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         righteye_eye_dist_eye_centered.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         righteye_eye_dist_face_centered.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         righteye_eye_only_eye_centered.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         righteye_half_dist_eye_centered.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         righteye_largest_2_eye_centered.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         righteye_largest_eye_centered.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         righteye_largest_face_centered.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         righteye_smallest_eye_centered.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(404): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(398) : while compiling class template member function 'void MPIImagePyramid<T>::InitROI(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(405): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+         Compiling...
+         faceobject.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+     1>src\faceobject.cpp(67): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\faceobject.cpp(68): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\faceobject.cpp(69): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\faceobject.cpp(70): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\faceobject.cpp(71): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>src\faceobject.cpp(215): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\faceobject.cpp(226): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>src\faceobject.cpp(361): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+         visualobject.cpp
+     1>C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpeyefinder\include\visualobject.h(52): warning C4267: 'return' : conversion from 'size_t' to 'int', possible loss of data
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\x64\Release\mpeyefinder.lib" /NOLOGO /LTCG x64\Release\beyesobject.obj
+         x64\Release\eyefinder.obj
+         x64\Release\eyefinderBinary.obj
+         x64\Release\eyeobject.obj
+         x64\Release\lefteye_eye_dist_eye_centered.obj
+         x64\Release\lefteye_eye_dist_face_centered.obj
+         x64\Release\lefteye_eye_only_eye_centered.obj
+         x64\Release\lefteye_half_dist_eye_centered.obj
+         x64\Release\lefteye_largest_2_eye_centered.obj
+         x64\Release\lefteye_largest_eye_centered.obj
+         x64\Release\lefteye_largest_face_centered.obj
+         x64\Release\lefteye_smallest_eye_centered.obj
+         x64\Release\righteye_eye_dist_eye_centered.obj
+         x64\Release\righteye_eye_dist_face_centered.obj
+         x64\Release\righteye_eye_only_eye_centered.obj
+         x64\Release\righteye_half_dist_eye_centered.obj
+         x64\Release\righteye_largest_2_eye_centered.obj
+         x64\Release\righteye_largest_eye_centered.obj
+         x64\Release\righteye_largest_face_centered.obj
+         x64\Release\righteye_smallest_eye_centered.obj
+         x64\Release\faceobject.obj
+         x64\Release\visualobject.obj
+         mpeyefinder.vcxproj -> C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\x64\Release\mpeyefinder.lib
+       FinalizeBuildStatus:
+         Deleting file "x64\Release\mpeyefinder.unsuccessfulbuild".
+         Touching "x64\Release\mpeyefinder.lastbuildstate".
+     1>Done Building Project "C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\mpeyefinder\mpeyefinder.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.94

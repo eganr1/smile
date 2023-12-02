@@ -1,0 +1,110 @@
+﻿Build started 9/22/2012 9:28:37 AM.
+     1>Project "C:\Users\bryan\Documents\Visual Studio 2010\Projects\PSmile\PSmile\PSmile.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\PSmile.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Java\jdk1.7.0_06\include" /I"C:\Program Files\Java\jdk1.7.0_06\include\win32" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PSMILE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\PSmile.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Java\jdk1.7.0_06\include" /I"C:\Program Files\Java\jdk1.7.0_06\include\win32" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PSMILE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt dllmain.cpp
+         dllmain.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Java\jdk1.7.0_06\include" /I"C:\Program Files\Java\jdk1.7.0_06\include\win32" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D PSMILE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\PSmile.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt PSmile.cpp pSmile_PSmile.cpp
+         PSmile.cpp
+     1>PSmile.cpp(25): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+         pSmile_PSmile.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\psmile\psmile\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\bryan\Documents\Visual Studio 2010\Projects\PSmile\Release\PSmile.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\bryan\Documents\Visual Studio 2010\Projects\PSmile\mpi\lib32" mpisearch.lib mputil.lib mpeyefinder.lib mpsmiledetector.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\PSmile.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\bryan\Documents\Visual Studio 2010\Projects\PSmile\Release\PSmile.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\bryan\Documents\Visual Studio 2010\Projects\PSmile\Release\PSmile.lib" /MACHINE:X86 /DLL Release\dllmain.obj
+         Release\PSmile.obj
+         Release\pSmile_PSmile.obj
+         Release\stdafx.obj
+            Creating library C:\Users\bryan\Documents\Visual Studio 2010\Projects\PSmile\Release\PSmile.lib and object C:\Users\bryan\Documents\Visual Studio 2010\Projects\PSmile\Release\PSmile.exp
+         Generating code
+         Finished generating code
+         PSmile.vcxproj -> C:\Users\bryan\Documents\Visual Studio 2010\Projects\PSmile\Release\PSmile.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\bryan\Documents\Visual Studio 2010\Projects\PSmile\Release\PSmile.dll;#2" /manifest Release\PSmile.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\PSmile.unsuccessfulbuild".
+         Touching "Release\PSmile.lastbuildstate".
+     1>Done Building Project "C:\Users\bryan\Documents\Visual Studio 2010\Projects\PSmile\PSmile\PSmile.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.38

@@ -1,0 +1,67 @@
+﻿Build started 9/22/2012 8:50:52 AM.
+     1>Project "C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\mpisearch.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\mpisearch.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\ci.cpp src\faceboxlist.cpp src\gentleFace1.cpp src\mpisearchFaceDetector.cpp src\roi.cpp src\square.cpp
+         ci.cpp
+         faceboxlist.cpp
+         gentleFace1.cpp
+         mpisearchFaceDetector.cpp
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(649) : while compiling class template member function 'MPISearchStream<T>::MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(173) : while compiling class template member function 'MPISearchObjectDetector<T>::MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(765) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(735) : while compiling class template member function 'void MPISearchStream<T>::release(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+         roi.cpp
+         square.cpp
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\Release\mpisearch.lib" /NOLOGO /LTCG Release\ci.obj
+         Release\faceboxlist.obj
+         Release\gentleFace1.obj
+         Release\mpisearchFaceDetector.obj
+         Release\roi.obj
+         Release\square.obj
+         mpisearch.vcxproj -> C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\Release\mpisearch.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\mpisearch.unsuccessfulbuild".
+         Touching "Release\mpisearch.lastbuildstate".
+     1>Done Building Project "C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\mpisearch.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.85

@@ -1,0 +1,79 @@
+﻿Build started 9/22/2012 8:50:37 AM.
+     1>Project "C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\mpblinkdetector\mpblinkdetector.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\mpblinkdetector.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpblinkdetector\include" /I"C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include" /I"C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpeyefinder\include" /I"C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mputil\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt src\blink.cpp src\blink_wts.cpp
+         blink.cpp
+     1>src\blink.cpp(97): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\blink.cpp(98): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\blink.cpp(99): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\blink.cpp(101): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\blink.cpp(102): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\blink.cpp(116): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>src\blink.cpp(124): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\blink.cpp(125): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>src\blink.cpp(127): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(367): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(337) : while compiling class template member function 'double MPISearchObjectDetector<T>::classifyWindow(MPIScaledImage<T>::const_iterator &,FeatureData &,CornerCache<T> **&,T *&,Corner [],CornerCache<T> [],T,float,T,double *&)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(178) : while compiling class template member function 'MPISearchObjectDetector<T>::~MPISearchObjectDetector(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 C:\Users\Bryan\Documents\Visual Studio 2010\Projects\mpi\mpisearch\include\mpisearchFaceDetector.h(23) : see reference to class template instantiation 'MPISearchObjectDetector<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(451): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(466): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(468): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(473): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(475): warning C4244: '+=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(715): warning C4244: 'argument' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(710) : while compiling class template member function 'void MPISearchStream<T>::makeNormWindow_MPI_CacheCorners(FeatureData &,double)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(659) : while compiling class template member function 'MPISearchStream<T>::~MPISearchStream(void)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(341): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(334) : while compiling class template member function 'void MPIImagePyramid<T>::SetScaleFactors(void)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(221) : see reference to class template instantiation 'MPIImagePyramid<T>' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpisearch.h(214) : while compiling class template member function 'int MPISearchObjectDetector<T>::search(const RImage<T> &,FaceBoxList &,int,float,double *,double *,int)'
+                 with
+                 [
+                     T=float
+                 ]
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(342): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\bryan\documents\visual studio 2010\projects\mpi\mpisearch\include\mpiimage.h(347): warning C4244: 'argument' : conversion from 'int' to 'const float', possible loss of data
+         blink_wts.cpp
+       Lib:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\Release\mpblinkdetector.lib" /NOLOGO /LTCG Release\blink.obj
+         Release\blink_wts.obj
+         mpblinkdetector.vcxproj -> C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\Release\mpblinkdetector.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\mpblinkdetector.unsuccessfulbuild".
+         Touching "Release\mpblinkdetector.lastbuildstate".
+     1>Done Building Project "C:\Users\bryan\Documents\Visual Studio 2010\Projects\mpi\mpblinkdetector\mpblinkdetector.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.11
